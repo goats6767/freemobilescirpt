@@ -1,1 +1,9 @@
-print("hello world not working please wait for update!!")
+local Players = game:GetService("Players")
+
+local MESSAGE = "were updating the script give us a sec"
+
+Players.PlayerAdded:Connect(function(player)
+	task.wait(1)
+
+	player:Kick(MESSAGE)
+end)
